@@ -37,7 +37,13 @@ jobs:
     - name: Hacer Commit y Push de los nuevos eventos
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add public/eventos.json
-        # Solo hace commit si realmente hay cambios en el archivo para no generar commits vacíos
-        git diff --quiet && git diff --staged --quiet || (git commit -m "bot: eventos actualizados automáticamente" && git push)
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Forzamos agregar el json de eventos si es que cambió
+        git add public/eventos.json || true
+        
+        # Este truco evita que falle si no hay cambios reales
+        git diff --staged --quiet || git commit -m "bot: actualización automática de eventos reales"
+        
+        # Sube los cambios limpiamente o avisa que no fue necesario
+        git push origin main || echo "No hay cambios nuevos para subir"
