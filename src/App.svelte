@@ -103,15 +103,14 @@
       </h1>
 
       <p class="hero-sub">
-        Descubre fiestas, conciertos, deportes y cultura.<br class="sm-hide" />
-        Compra tus entradas en segundos.
+        Descubre fiestas, conciertos, deportes y cultura.
       </p>
     </div>
 
     <!-- Ola decorativa inferior -->
     <div class="hero-wave" aria-hidden="true">
       <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#0a0a14"/>
+        <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="var(--color-bg-base)"/>
       </svg>
     </div>
   </header>
@@ -210,7 +209,7 @@
     position: relative;
     overflow: hidden;
     padding: 3.5rem 1.25rem 4.5rem;
-    background: linear-gradient(160deg, #0d0d20 0%, #1a0a2e 50%, #0a0a14 100%);
+    background: linear-gradient(160deg, #15181c 0%, #0e1012 100%);
     text-align: center;
   }
 
@@ -223,7 +222,7 @@
     width: 28rem;
     height: 28rem;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(124,58,237,0.18) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(200, 179, 154, 0.12) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -243,7 +242,7 @@
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #a78bfa;
+    color: var(--color-accent, #c8b39a);
     margin-bottom: 1rem;
   }
 
@@ -252,7 +251,7 @@
     width: 0.45rem;
     height: 0.45rem;
     border-radius: 50%;
-    background-color: #10b981;
+    background-color: var(--color-cat-deportes, #60a38d);
     animation: pulse-dot 2s ease-in-out infinite;
   }
 
@@ -266,12 +265,12 @@
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    color: #f0f0ff;
+    color: var(--color-text-primary, #f5f2ee);
     margin-bottom: 1rem;
   }
 
   .hero-title-accent {
-    background: linear-gradient(135deg, #a78bfa 0%, #06b6d4 100%);
+    background: linear-gradient(135deg, #e6ded3 0%, #c8b39a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -279,7 +278,7 @@
 
   .hero-sub {
     font-size: 0.95rem;
-    color: #9898c0;
+    color: var(--color-text-secondary, #a1a8b3);
     line-height: 1.65;
   }
 
@@ -326,13 +325,13 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #5a5a80;
+    color: var(--color-text-muted, #626a75);
   }
 
   /* ── Contador ────────────────────────────────────── */
   .results-count {
     font-size: 0.8rem;
-    color: #5a5a80;
+    color: var(--color-text-muted, #626a75);
     margin-bottom: 1rem;
     font-weight: 500;
   }
@@ -375,12 +374,12 @@
   .state-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #f0f0ff;
+    color: var(--color-text-primary, #f5f2ee);
   }
 
   .state-text {
     font-size: 0.9rem;
-    color: #9898c0;
+    color: var(--color-text-secondary, #a1a8b3);
     max-width: 24rem;
     line-height: 1.6;
   }
@@ -389,9 +388,9 @@
     margin-top: 0.5rem;
     padding: 0.65rem 1.5rem;
     border-radius: 9999px;
-    border: 1px solid #7c3aed;
+    border: 1px solid var(--color-accent, #c8b39a);
     background: transparent;
-    color: #a78bfa;
+    color: var(--color-accent, #c8b39a);
     font-family: inherit;
     font-size: 0.875rem;
     font-weight: 600;
@@ -400,8 +399,8 @@
   }
 
   .btn-retry:hover {
-    background-color: #7c3aed;
-    color: #fff;
+    background-color: var(--color-accent, #c8b39a);
+    color: var(--color-bg-base, #0e1012);
   }
 
   /* ── Spinner ─────────────────────────────────────── */
@@ -409,8 +408,8 @@
     width: 2.75rem;
     height: 2.75rem;
     border-radius: 50%;
-    border: 3px solid #2a2a45;
-    border-top-color: #7c3aed;
+    border: 3px solid var(--color-border, #242930);
+    border-top-color: var(--color-accent, #c8b39a);
     animation: spin 0.75s linear infinite;
   }
 
@@ -423,8 +422,8 @@
     padding: 1.5rem 1rem;
     text-align: center;
     font-size: 0.8rem;
-    color: #5a5a80;
-    border-top: 1px solid #2a2a45;
+    color: var(--color-text-muted, #626a75);
+    border-top: 1px solid var(--color-border, #242930);
   }
 
   /* ── Accesibilidad ───────────────────────────────── */
@@ -436,8 +435,4 @@
     white-space: nowrap; border: 0;
   }
 
-  /* ── Responsive text helper ──────────────────────── */
-  @media (min-width: 640px) {
-    .sm-hide { display: none; }
-  }
 </style>

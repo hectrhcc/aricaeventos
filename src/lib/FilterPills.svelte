@@ -35,24 +35,24 @@
     font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
-    border: 1px solid #2a2a45;
-    background-color: #12121f;
-    color: #9898c0;
+    border: 1px solid var(--color-border, #242930);
+    background-color: var(--color-bg-card, #16191d);
+    color: var(--color-text-secondary, #a1a8b3);
     font-family: inherit;
     transition: background-color 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s;
     white-space: nowrap;
   }
 
   .pill:hover:not(.active) {
-    border-color: #7c3aed66;
-    color: #c4b5fd;
-    background-color: #7c3aed14;
+    border-color: rgba(200, 179, 154, 0.4);
+    color: var(--color-text-primary, #f5f2ee);
+    background-color: rgba(200, 179, 154, 0.08);
   }
 
   .pill.active {
-    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    background: var(--color-accent, #c8b39a);
     border-color: transparent;
-    color: #fff;
-    box-shadow: 0 2px 12px rgba(124, 58, 237, 0.4);
+    color: var(--color-bg-base, #0e1012);
+    box-shadow: 0 4px 14px rgba(200, 179, 154, 0.2);
   }
 </style>

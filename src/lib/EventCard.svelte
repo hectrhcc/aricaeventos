@@ -66,26 +66,13 @@
       </div>
     </div>
 
-    <!-- Botón CTA -->
-    <a
-      href={evento.url_ticket}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn-comprar"
-      aria-label={`Comprar entradas para ${evento.titulo}`}
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path d="M1 4.25a3.733 3.733 0 0 1 2.25-.75h13.5c.844 0 1.623.279 2.25.75v2.5A3.75 3.75 0 0 0 17 10a3.75 3.75 0 0 0 2 3.25v2.5A3.75 3.75 0 0 1 15.25 17H4.75A3.75 3.75 0 0 1 1 13.25v-2.5A3.75 3.75 0 0 0 3 7.5 3.75 3.75 0 0 0 1 4.25Z" />
-      </svg>
-      Comprar Entradas
-    </a>
   </div>
 </article>
 
 <style>
   /* ── Tarjeta ─────────────────────────────────────── */
   .event-card {
-    background-color: var(--color-bg-card, #12121f);
+    background-color: var(--color-bg-card, #16191d);
     border: 1px solid var(--color-border, #2a2a45);
     border-radius: var(--radius-card, 1rem);
     overflow: hidden;
@@ -97,7 +84,7 @@
 
   .event-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), 0 0 0 1px var(--cat-border);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px var(--cat-border);
     border-color: var(--cat-border);
   }
 
@@ -125,7 +112,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(10,10,20,0.85) 0%, transparent 55%);
+    background: linear-gradient(to top, rgba(14,16,18,0.85) 0%, transparent 55%);
     pointer-events: none;
   }
 
@@ -156,9 +143,9 @@
     border-radius: 9999px;
     font-size: 0.78rem;
     font-weight: 700;
-    background-color: rgba(10, 10, 20, 0.75);
-    color: #a78bfa;
-    border: 1px solid #7c3aed44;
+    background-color: rgba(14, 16, 18, 0.75);
+    color: var(--color-accent-light, #c8b39a);
+    border: 1px solid rgba(200, 179, 154, 0.25);
     backdrop-filter: blur(8px);
   }
 
@@ -169,7 +156,7 @@
 
   /* ── Cuerpo ──────────────────────────────────────── */
   .card-body {
-    padding: 1.1rem 1.25rem 1.25rem;
+    padding: 1.1rem 1.25rem 1.35rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -180,7 +167,7 @@
     font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.3;
-    color: #f0f0ff;
+    color: #f5f3f0;
     letter-spacing: -0.01em;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -190,7 +177,7 @@
 
   .card-producer {
     font-size: 0.75rem;
-    color: #5a5a80;
+    color: #626a75;
     font-weight: 500;
   }
 
@@ -207,7 +194,7 @@
     align-items: flex-start;
     gap: 0.4rem;
     font-size: 0.8rem;
-    color: #9898c0;
+    color: #a1a8b3;
     line-height: 1.4;
   }
 
@@ -218,43 +205,5 @@
     margin-top: 0.05rem;
     color: var(--cat-text);
     opacity: 0.8;
-  }
-
-  /* ── Botón CTA ──────────────────────────────────── */
-  .btn-comprar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.45rem;
-    margin-top: auto;
-    padding-top: 1rem;
-    padding: 0.75rem 1rem;
-    margin-top: 0.75rem;
-    border-radius: 0.75rem;
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    background: linear-gradient(135deg, #7c3aed, #6d28d9);
-    transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
-    box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
-    letter-spacing: 0.01em;
-  }
-
-  .btn-comprar svg {
-    width: 1rem;
-    height: 1rem;
-    flex-shrink: 0;
-  }
-
-  .btn-comprar:hover {
-    opacity: 0.92;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.5);
-  }
-
-  .btn-comprar:active {
-    transform: translateY(0);
-    opacity: 1;
   }
 </style>

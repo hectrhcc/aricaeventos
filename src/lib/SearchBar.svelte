@@ -50,7 +50,7 @@
     left: 1rem;
     width: 1.1rem;
     height: 1.1rem;
-    color: #5a5a80;
+    color: var(--color-text-muted, #626a75);
     pointer-events: none;
     flex-shrink: 0;
     transition: color 0.2s;
@@ -60,9 +60,9 @@
     width: 100%;
     padding: 0.8rem 2.8rem 0.8rem 2.75rem;
     border-radius: 0.875rem;
-    border: 1px solid #2a2a45;
-    background-color: #12121f;
-    color: #f0f0ff;
+    border: 1px solid var(--color-border, #242930);
+    background-color: var(--color-bg-card, #16191d);
+    color: var(--color-text-primary, #f5f2ee);
     font-size: 0.95rem;
     font-family: inherit;
     outline: none;
@@ -70,16 +70,16 @@
     -webkit-appearance: none;
   }
 
-  input::placeholder { color: #5a5a80; }
+  input::placeholder { color: var(--color-text-muted, #626a75); }
 
   input:focus {
-    border-color: #7c3aed;
-    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
-    background-color: #16162a;
+    border-color: var(--color-accent, #c8b39a);
+    box-shadow: 0 0 0 3px rgba(200, 179, 154, 0.15);
+    background-color: var(--color-bg-surface, #1f2329);
   }
 
   input:focus + :global(.search-icon) {
-    color: #a78bfa;
+    color: var(--color-accent, #c8b39a);
   }
 
   /* Ocultar el icono "x" nativo de algunos browsers */
@@ -93,7 +93,7 @@
     cursor: pointer;
     padding: 0.25rem;
     border-radius: 50%;
-    color: #5a5a80;
+    color: var(--color-text-muted, #626a75);
     display: flex;
     align-items: center;
     transition: color 0.15s, background-color 0.15s;
@@ -105,7 +105,7 @@
   }
 
   .clear-btn:hover {
-    color: #f0f0ff;
-    background-color: #2a2a45;
+    color: var(--color-text-primary, #f5f2ee);
+    background-color: var(--color-border, #242930);
   }
 </style>
