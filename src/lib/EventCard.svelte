@@ -32,8 +32,6 @@
       alt={`Imagen de ${evento.titulo}`}
       loading="lazy"
       decoding="async"
-      width="800"
-      height="450"
       onerror={() => (imgError = true)}
     />
     <!-- Badge de categoría sobre la imagen -->
@@ -93,7 +91,7 @@
   /* ── Imagen ──────────────────────────────────────── */
   .card-img-wrap {
     position: relative;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 2 / 3;
     overflow: hidden;
     background-color: #dbceb6;
   }
@@ -101,7 +99,8 @@
   .card-img-wrap img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center top;
     transition: transform 0.4s ease;
   }
 
@@ -109,12 +108,12 @@
     transform: scale(1.04);
   }
 
-  /* Overlay degradado sobre la imagen */
+  /* Overlay degradado — solo visible si la imagen no llena el contenedor */
   .card-img-wrap::after {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(236,227,211,0.9) 0%, transparent 55%);
+    background: linear-gradient(to top, rgba(236,227,211,0.9) 0%, transparent 60%);
     pointer-events: none;
   }
 
