@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "titulo": "Gran Fiesta Playera",
+    "productora": "Passline",
+    "fecha": "2026-06-05",
+    "hora": "23:00",
+    "lugar": "Playa El Laucho",
+    "precio_desde": 10000,
+    "categoria": "Fiestas",
+    "imagen": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "2",
+    "titulo": "Festival de Jazz & Blues",
+    "productora": "Cultural Arica",
+    "fecha": "2026-06-07",
+    "hora": "20:00",
+    "lugar": "Teatro Municipal de Arica",
+    "precio_desde": 8000,
+    "categoria": "En vivo",
+    "imagen": "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "3",
+    "titulo": "Maratón Ciudad de Arica",
+    "productora": "Run Arica",
+    "fecha": "2026-06-08",
+    "hora": "07:00",
+    "lugar": "Av. Comandante San Martín",
+    "precio_desde": 5000,
+    "categoria": "Deportes",
+    "imagen": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "4",
+    "titulo": "Exposición: Arte Textil Andino",
+    "productora": "Museo Regional",
+    "fecha": "2026-06-10",
+    "hora": "11:00",
+    "lugar": "Museo Regional de Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://images.unsplash.com/photo-1594784655498-930fe1ca7c8a?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "5",
+    "titulo": "Noche Electrónica: AWAS",
+    "productora": "Boiler Events",
+    "fecha": "2026-06-13",
+    "hora": "00:00",
+    "lugar": "Club Espacio 88",
+    "precio_desde": 15000,
+    "categoria": "Fiestas",
+    "imagen": "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "6",
+    "titulo": "Torneo de Surf Arica Pro",
+    "productora": "Surf Chile",
+    "fecha": "2026-06-14",
+    "hora": "09:00",
+    "lugar": "Playa La Lisera",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "7",
+    "titulo": "Concierto: Los Bunkers Tributo",
+    "productora": "Show Productions",
+    "fecha": "2026-06-19",
+    "hora": "21:30",
+    "lugar": "Anfiteatro El Laucho",
+    "precio_desde": 12000,
+    "categoria": "En vivo",
+    "imagen": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "8",
+    "titulo": "Feria Gastronómica del Norte",
+    "productora": "Municipalidad Arica",
+    "fecha": "2026-06-20",
+    "hora": "12:00",
+    "lugar": "Plaza Colón",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "9",
+    "titulo": "Reggaeton Night: Maluma Tribute",
+    "productora": "Urban Nights",
+    "fecha": "2026-06-27",
+    "hora": "22:00",
+    "lugar": "Club Kamikaze",
+    "precio_desde": 8000,
+    "categoria": "Fiestas",
+    "imagen": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  },
+  {
+    "id": "10",
+    "titulo": "Cine al Aire Libre: Clásicos",
+    "productora": "Cine Club Arica",
+    "fecha": "2026-07-04",
+    "hora": "20:00",
+    "lugar": "Parque Brasil",
+    "precio_desde": 2000,
+    "categoria": "Cultura",
+    "imagen": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=500&fit=crop",
+    "url_ticket": "https://www.passline.com/"
+  }
+]

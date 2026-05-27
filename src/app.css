@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────
+   DESIGN TOKENS — Eventos Arica
+   Paleta: Modo Oscuro Nocturno Vibrante
+   ───────────────────────────────────────────── */
+@theme {
+  /* Tipografía */
+  --font-family-sans: 'Outfit', system-ui, sans-serif;
+
+  /* Colores base */
+  --color-bg-base:    #0a0a14;
+  --color-bg-card:    #12121f;
+  --color-bg-surface: #1a1a2e;
+  --color-bg-elevated:#22223a;
+
+  /* Bordes */
+  --color-border:     #2a2a45;
+  --color-border-glow:#7c3aed40;
+
+  /* Acento principal — Violeta eléctrico */
+  --color-accent:     #7c3aed;
+  --color-accent-hover:#6d28d9;
+  --color-accent-light:#a78bfa;
+  --color-accent-glow: #7c3aed33;
+
+  /* Acento secundario — Cyan brillante */
+  --color-secondary:  #06b6d4;
+  --color-secondary-light: #67e8f9;
+
+  /* Textos */
+  --color-text-primary:   #f0f0ff;
+  --color-text-secondary: #9898c0;
+  --color-text-muted:     #5a5a80;
+
+  /* Categorías — colores semánticos */
+  --color-cat-fiestas:    #f43f5e;
+  --color-cat-cultura:    #f59e0b;
+  --color-cat-deportes:   #10b981;
+  --color-cat-en-vivo:    #06b6d4;
+  --color-cat-otro:       #8b5cf6;
+
+  /* Radios */
+  --radius-card:  1rem;
+  --radius-pill:  9999px;
+
+  /* Sombras */
+  --shadow-card:  0 4px 24px 0 rgba(0,0,0,0.5);
+  --shadow-glow:  0 0 20px 0 rgba(124,58,237,0.25);
+}
+
+/* ─────────────────────────────────────────────
+   RESET Y BASE GLOBAL
+   ───────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─────────────────────────────────────────────
+   SCROLLBAR PERSONALIZADO
+   ───────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg-base); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
