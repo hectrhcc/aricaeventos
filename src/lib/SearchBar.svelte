@@ -108,4 +108,9 @@
     color: var(--color-text-primary, #2b2418);
     background-color: var(--color-border, #d4c5aa);
   }
+
+  .clear-btn:focus-visible {
+    outline: 2px solid var(--color-accent, #c8b39a);
+    outline-offset: 2px;
+  }
 </style>

@@ -6,10 +6,10 @@
    */
 
   /** @type {{ label: string, value: string }[]} */
-  let { opciones, valor = $bindable() } = $props();
+  let { opciones, valor = $bindable(), labelId = '' } = $props();
 </script>
 
-<div class="pills-wrap" role="group" aria-label="Filtros">
+<div class="pills-wrap" role="group" {...(labelId ? { 'aria-labelledby': labelId } : {})}>
   {#each opciones as op (op.value)}
     <button
       class="pill"
@@ -47,6 +47,11 @@
     border-color: rgba(200, 179, 154, 0.4);
     color: var(--color-text-primary, #2b2418);
     background-color: rgba(200, 179, 154, 0.15);
+  }
+
+  .pill:focus-visible {
+    outline: 2px solid var(--color-accent, #c8b39a);
+    outline-offset: 2px;
   }
 
   .pill.active {

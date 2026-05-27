@@ -32,6 +32,8 @@
       alt={`Imagen de ${evento.titulo}`}
       loading="lazy"
       decoding="async"
+      width="800"
+      height="450"
       onerror={() => (imgError = true)}
     />
     <!-- Badge de categoría sobre la imagen -->

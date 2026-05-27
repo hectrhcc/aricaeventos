@@ -85,6 +85,11 @@
 <!-- ─── HTML ──────────────────────────────────────────────────────────────────── -->
 <div class="app-shell">
 
+  <!-- Skip link — permite saltar el hero al contenido principal -->
+  <a href="#main-content" class="skip-link">
+    Ir al contenido
+  </a>
+
   <!-- ══ HERO / HEADER ══════════════════════════════════════════════════════════ -->
   <header class="hero">
     <!-- Orbe decorativo de fondo -->
@@ -117,7 +122,7 @@
   </header>
 
   <!-- ══ CONTENIDO PRINCIPAL ═══════════════════════════════════════════════════ -->
-  <main class="main-content">
+  <main id="main-content" class="main-content">
 
     <!-- ── Barra de búsqueda ── -->
     <section class="section-filters" aria-label="Filtros de búsqueda">
@@ -127,14 +132,14 @@
 
       <!-- Filtros de categoría -->
       <div class="filter-group filter-animate" style="--delay: 100ms">
-        <p class="filter-label">Categoría</p>
-        <FilterPills opciones={opsCat} bind:valor={filtroCat} />
+        <p class="filter-label" id="label-categoria">Categoría</p>
+        <FilterPills opciones={opsCat} bind:valor={filtroCat} labelId="label-categoria" />
       </div>
 
       <!-- Filtros de fecha -->
       <div class="filter-group filter-animate" style="--delay: 200ms">
-        <p class="filter-label">Cuándo</p>
-        <FilterPills opciones={opsFec} bind:valor={filtroFec} />
+        <p class="filter-label" id="label-cuando">Cuándo</p>
+        <FilterPills opciones={opsFec} bind:valor={filtroFec} labelId="label-cuando" />
       </div>
     </section>
 
@@ -153,7 +158,7 @@
       <!-- Estado: Error -->
       {:else if error}
         <div class="state-container">
-          <span class="state-emoji">⚠️</span>
+          <span class="state-emoji" aria-hidden="true">⚠️</span>
           <p class="state-text">{error}</p>
           <button class="btn-retry" onclick={() => window.location.reload()}>Reintentar</button>
         </div>
@@ -161,7 +166,7 @@
       <!-- Estado: Sin resultados -->
       {:else if conteo === 0}
         <div class="state-container" aria-live="polite">
-          <span class="state-emoji">🔍</span>
+          <span class="state-emoji" aria-hidden="true">🔍</span>
           <p class="state-title">Sin resultados</p>
           <p class="state-text">No hay eventos para estos filtros, ¡intenta con otra fecha!</p>
           <button
@@ -175,9 +180,11 @@
       <!-- Estado: Resultados ✓ -->
       {:else}
         <!-- Contador de resultados -->
-        <p class="results-count" aria-live="polite">
-          {conteo} {conteo === 1 ? 'evento encontrado' : 'eventos encontrados'}
-        </p>
+        {#key conteo}
+          <p class="results-count" aria-live="polite" in:fly={{ y: 16, duration: 400, opacity: 0 }}>
+            {conteo} {conteo === 1 ? 'evento encontrado' : 'eventos encontrados'}
+          </p>
+        {/key}
 
         <!-- Grilla de tarjetas -->
         <div class="events-grid" role="list">
@@ -379,7 +386,7 @@
     .events-grid { grid-template-columns: repeat(4, 1fr); }
   }
 
-  /* ── Animaciones de entrada (filtros) ──────────── */
+  /* ── Animaciones de entrada ──────────────────── */
   .filter-animate {
     opacity: 0;
     animation: card-enter 0.45s ease-out var(--delay, 0ms) forwards;
@@ -452,6 +459,11 @@
     color: #f7f1e8;
   }
 
+  .btn-retry:focus-visible {
+    outline: 2px solid var(--color-accent, #c8b39a);
+    outline-offset: 3px;
+  }
+
   /* ── Spinner ─────────────────────────────────────── */
   .spinner {
     width: 2.75rem;
@@ -473,6 +485,31 @@
     font-size: 0.8rem;
     color: var(--color-text-muted, #9d8f7a);
     border-top: 1px solid var(--color-border, #d4c5aa);
+  }
+
+  /* ── Skip link ────────────────────────────────── */
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 100;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-text-primary, #2b2418);
+    color: var(--color-bg-base, #f7f1e8);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 0.5rem 0;
+    transition: top 0.15s;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+
+  .skip-link:focus-visible {
+    outline: 2px solid var(--color-accent, #c8b39a);
+    outline-offset: 2px;
   }
 
   /* ── Accesibilidad ───────────────────────────────── */

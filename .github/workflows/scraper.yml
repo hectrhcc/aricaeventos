@@ -1,0 +1,43 @@
+name: Actualizar Eventos de Arica
+
+on:
+  schedule:
+    # Corre automáticamente todos los días a las 08:00 AM UTC (Ajusta según tu zona horaria)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Esto te permite activar el robot manualmente desde GitHub cuando quieras probar
+
+permissions:
+  contents: write # Crucial: Le da permiso al robot para modificar tu eventos.json y hacer push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Descarga el código del repositorio en el servidor de GitHub
+    - name: Checkout del repositorio
+      uses: actions/checkout@v4
+
+    # 2. Instala Node.js en el servidor virtual
+    - name: Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm' # Optimiza la instalación de dependencias
+
+    # 3. Instala las librerías necesarias para tu scraper (ej: axios, cheerio, puppeteer, etc.)
+    - name: Instalar dependencias
+      run: npm install
+
+    # 4. Ejecuta tu script de scraping (el que genera el public/eventos.json)
+    - name: Ejecutar Scraper
+      run: node scraper.js
+
+    # 5. Guarda los cambios y los sube al repositorio si el JSON cambió
+    - name: Hacer Commit y Push de los nuevos eventos
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add public/eventos.json
+        # Solo hace commit si realmente hay cambios en el archivo para no generar commits vacíos
+        git diff --quiet && git diff --staged --quiet || (git commit -m "bot: eventos actualizados automáticamente" && git push)
