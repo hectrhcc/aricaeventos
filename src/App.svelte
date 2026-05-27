@@ -5,6 +5,7 @@
    * Carga eventos.json, aplica filtros reactivos y renderiza la UI.
    */
   import { onMount } from 'svelte';
+  import { fly } from 'svelte/transition';
   import EventCard    from './lib/EventCard.svelte';
   import FilterPills  from './lib/FilterPills.svelte';
   import SearchBar    from './lib/SearchBar.svelte';
@@ -183,8 +184,8 @@
           {#each eventosFiltrados as evento, i (evento.id)}
             <div
               role="listitem"
-              class="event-item"
-              style="--delay: {i * 80}ms"
+              in:fly={{ y: 24, duration: 450, delay: i * 80, opacity: 0 }}
+              out:fly={{ y: -16, duration: 250, opacity: 0 }}
             >
               <EventCard {evento} />
             </div>
@@ -378,9 +379,8 @@
     .events-grid { grid-template-columns: repeat(4, 1fr); }
   }
 
-  /* ── Animaciones de entrada ───────────────────────── */
-  .filter-animate,
-  .event-item {
+  /* ── Animaciones de entrada (filtros) ──────────── */
+  .filter-animate {
     opacity: 0;
     animation: card-enter 0.45s ease-out var(--delay, 0ms) forwards;
   }
@@ -397,7 +397,6 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .event-item,
     .hero-animate,
     .filter-animate {
       animation: none;
