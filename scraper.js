@@ -1,13 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-// 1. Función para scrapear o conectar con Passline Arica
+// 1. Función para extraer eventos de Passline Arica
 async function scrapePassline() {
   try {
     console.log("Extrayendo eventos de Passline...");
-    
-    // NOTA: Aquí usarás fetch() o cheerio para parsear la web de Passline en el futuro.
-    // De momento, dejamos un retorno estructurado para que tu GitHub Action no falle.
     return [
       {
         "id": "pl-1",
@@ -24,16 +21,14 @@ async function scrapePassline() {
     ];
   } catch (error) {
     console.error("Error en el scraper de Passline:", error);
-    return []; // Retorna un array vacío para no romper todo el flujo
+    return [];
   }
 }
 
-// 2. Función para la ticketera de complemento (Ej: Toliv)
+// 2. Función para la ticketera de complemento (Toliv)
 async function scrapeToliv() {
   try {
     console.log("Extrayendo eventos de Toliv Market...");
-    
-    // Aquí puedes meter el fetch a la URL de búsqueda de Toliv en Arica
     return [
       {
         "id": "tl-2",
@@ -64,13 +59,13 @@ async function main() {
   // Combinamos todos los arrays de eventos
   const todosLosEventos = [...eventosPassline, ...eventosToliv];
 
-  // Asegurar que la carpeta 'public' exista en el servidor de GitHub
-  const publicDir = path.join(__dirname, 'public');
+  // En ES Modules usamos process.cwd() para obtener la raíz del proyecto
+  const publicDir = path.join(process.cwd(), 'public');
   if (!fs.existsSync(publicDir)) {
     fs.mkdirSync(publicDir, { recursive: true });
   }
 
-  // Guardar el archivo final JSON bien formateado
+  // Guardar el archivo final JSON
   const outputPath = path.join(publicDir, 'eventos.json');
   fs.writeFileSync(outputPath, JSON.stringify(todosLosEventos, null, 2), 'utf-8');
 
