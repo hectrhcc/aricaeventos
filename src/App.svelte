@@ -91,18 +91,18 @@
 
     <div class="hero-content">
       <!-- Logo / eyebrow -->
-      <p class="hero-eyebrow">
+      <p class="hero-eyebrow hero-animate" style="--delay: 0ms">
         <span class="dot"></span>
         Arica, Chile
       </p>
 
       <!-- Título principal H1 -->
-      <h1 class="hero-title">
+      <h1 class="hero-title hero-animate" style="--delay: 150ms">
         ¿Qué hacer<br />
         en <span class="hero-title-accent">Arica</span>?
       </h1>
 
-      <p class="hero-sub">
+      <p class="hero-sub hero-animate" style="--delay: 300ms">
         Descubre fiestas, conciertos, deportes y cultura.
       </p>
     </div>
@@ -120,16 +120,18 @@
 
     <!-- ── Barra de búsqueda ── -->
     <section class="section-filters" aria-label="Filtros de búsqueda">
-      <SearchBar bind:valor={busqueda} placeholder="Buscar por título, lugar o categoría…" />
+      <div class="filter-animate" style="--delay: 0ms">
+        <SearchBar bind:valor={busqueda} placeholder="Buscar por título, lugar o categoría…" />
+      </div>
 
       <!-- Filtros de categoría -->
-      <div class="filter-group">
+      <div class="filter-group filter-animate" style="--delay: 100ms">
         <p class="filter-label">Categoría</p>
         <FilterPills opciones={opsCat} bind:valor={filtroCat} />
       </div>
 
       <!-- Filtros de fecha -->
-      <div class="filter-group">
+      <div class="filter-group filter-animate" style="--delay: 200ms">
         <p class="filter-label">Cuándo</p>
         <FilterPills opciones={opsFec} bind:valor={filtroFec} />
       </div>
@@ -178,8 +180,12 @@
 
         <!-- Grilla de tarjetas -->
         <div class="events-grid" role="list">
-          {#each eventosFiltrados as evento (evento.id)}
-            <div role="listitem">
+          {#each eventosFiltrados as evento, i (evento.id)}
+            <div
+              role="listitem"
+              class="event-item"
+              style="--delay: {i * 80}ms"
+            >
               <EventCard {evento} />
             </div>
           {/each}
@@ -191,7 +197,7 @@
 
   <!-- ══ FOOTER ═════════════════════════════════════════════════════════════════ -->
   <footer class="site-footer">
-    <p>Hecho con <span aria-label="amor">💜</span> en Arica · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
+    <p>Hecho con <span aria-label="amor">💪</span> en Arica · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
   </footer>
 
 </div>
@@ -209,7 +215,7 @@
     position: relative;
     overflow: hidden;
     padding: 3.5rem 1.25rem 4.5rem;
-    background: linear-gradient(160deg, #15181c 0%, #0e1012 100%);
+    background: linear-gradient(160deg, #f0e5d2 0%, #f7f1e8 100%);
     text-align: center;
   }
 
@@ -222,7 +228,7 @@
     width: 28rem;
     height: 28rem;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(200, 179, 154, 0.12) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(200, 179, 154, 0.25) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -251,7 +257,7 @@
     width: 0.45rem;
     height: 0.45rem;
     border-radius: 50%;
-    background-color: var(--color-cat-deportes, #60a38d);
+    background-color: var(--color-cat-deportes, #4e9a80);
     animation: pulse-dot 2s ease-in-out infinite;
   }
 
@@ -265,12 +271,12 @@
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    color: var(--color-text-primary, #f5f2ee);
+    color: var(--color-text-primary, #2b2418);
     margin-bottom: 1rem;
   }
 
   .hero-title-accent {
-    background: linear-gradient(135deg, #e6ded3 0%, #c8b39a 100%);
+    background: linear-gradient(135deg, #c8b39a 0%, #a0876a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -278,8 +284,25 @@
 
   .hero-sub {
     font-size: 0.95rem;
-    color: var(--color-text-secondary, #a1a8b3);
+    color: var(--color-text-secondary, #6b5f4d);
     line-height: 1.65;
+  }
+
+  /* ── Animación de entrada del hero ────────────── */
+  .hero-animate {
+    opacity: 0;
+    animation: hero-enter 0.5s ease-out var(--delay, 0ms) forwards;
+  }
+
+  @keyframes hero-enter {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   /* Ola inferior */
@@ -325,13 +348,13 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--color-text-muted, #626a75);
+    color: var(--color-text-muted, #9d8f7a);
   }
 
   /* ── Contador ────────────────────────────────────── */
   .results-count {
     font-size: 0.8rem;
-    color: var(--color-text-muted, #626a75);
+    color: var(--color-text-muted, #9d8f7a);
     margin-bottom: 1rem;
     font-weight: 500;
   }
@@ -355,6 +378,33 @@
     .events-grid { grid-template-columns: repeat(4, 1fr); }
   }
 
+  /* ── Animaciones de entrada ───────────────────────── */
+  .filter-animate,
+  .event-item {
+    opacity: 0;
+    animation: card-enter 0.45s ease-out var(--delay, 0ms) forwards;
+  }
+
+  @keyframes card-enter {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .event-item,
+    .hero-animate,
+    .filter-animate {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
   /* ── Estados vacíos / cargando / error ───────────── */
   .state-container {
     display: flex;
@@ -374,12 +424,12 @@
   .state-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--color-text-primary, #f5f2ee);
+    color: var(--color-text-primary, #2b2418);
   }
 
   .state-text {
     font-size: 0.9rem;
-    color: var(--color-text-secondary, #a1a8b3);
+    color: var(--color-text-secondary, #6b5f4d);
     max-width: 24rem;
     line-height: 1.6;
   }
@@ -400,7 +450,7 @@
 
   .btn-retry:hover {
     background-color: var(--color-accent, #c8b39a);
-    color: var(--color-bg-base, #0e1012);
+    color: #f7f1e8;
   }
 
   /* ── Spinner ─────────────────────────────────────── */
@@ -408,7 +458,7 @@
     width: 2.75rem;
     height: 2.75rem;
     border-radius: 50%;
-    border: 3px solid var(--color-border, #242930);
+    border: 3px solid var(--color-border, #d4c5aa);
     border-top-color: var(--color-accent, #c8b39a);
     animation: spin 0.75s linear infinite;
   }
@@ -422,8 +472,8 @@
     padding: 1.5rem 1rem;
     text-align: center;
     font-size: 0.8rem;
-    color: var(--color-text-muted, #626a75);
-    border-top: 1px solid var(--color-border, #242930);
+    color: var(--color-text-muted, #9d8f7a);
+    border-top: 1px solid var(--color-border, #d4c5aa);
   }
 
   /* ── Accesibilidad ───────────────────────────────── */

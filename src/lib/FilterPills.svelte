@@ -35,9 +35,9 @@
     font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
-    border: 1px solid var(--color-border, #242930);
-    background-color: var(--color-bg-card, #16191d);
-    color: var(--color-text-secondary, #a1a8b3);
+    border: 1px solid var(--color-border, #d4c5aa);
+    background-color: var(--color-bg-card, #ece3d3);
+    color: var(--color-text-secondary, #6b5f4d);
     font-family: inherit;
     transition: background-color 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s;
     white-space: nowrap;
@@ -45,14 +45,14 @@
 
   .pill:hover:not(.active) {
     border-color: rgba(200, 179, 154, 0.4);
-    color: var(--color-text-primary, #f5f2ee);
-    background-color: rgba(200, 179, 154, 0.08);
+    color: var(--color-text-primary, #2b2418);
+    background-color: rgba(200, 179, 154, 0.15);
   }
 
   .pill.active {
     background: var(--color-accent, #c8b39a);
     border-color: transparent;
-    color: var(--color-bg-base, #0e1012);
+    color: #f7f1e8;
     box-shadow: 0 4px 14px rgba(200, 179, 154, 0.2);
   }
 </style>

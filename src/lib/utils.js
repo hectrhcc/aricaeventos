@@ -89,12 +89,12 @@ export function filtrarPorFecha(eventos, filtro) {
 
 // ─── Color de badge por categoría ────────────────────────────────────────────
 const COLORES_CAT = {
-  'Fiestas'  : { bg: '#f43f5e22', text: '#f43f5e', border: '#f43f5e44' },
-  'En vivo'  : { bg: '#06b6d422', text: '#06b6d4', border: '#06b6d444' },
-  'Deportes' : { bg: '#10b98122', text: '#10b981', border: '#10b98144' },
-  'Cultura'  : { bg: '#f59e0b22', text: '#f59e0b', border: '#f59e0b44' },
+  'Fiestas'  : { bg: '#fee2e2', text: '#dc2626', border: '#fca5a5' },
+  'En vivo'  : { bg: '#e0f2fe', text: '#0284c7', border: '#7dd3fc' },
+  'Deportes' : { bg: '#dcfce7', text: '#16a34a', border: '#86efac' },
+  'Cultura'  : { bg: '#fef3c7', text: '#d97706', border: '#fcd34d' },
 };
 
 export function colorCategoria(cat) {
-  return COLORES_CAT[cat] ?? { bg: '#8b5cf622', text: '#8b5cf6', border: '#8b5cf644' };
+  return COLORES_CAT[cat] ?? { bg: '#f3e8ff', text: '#9333ea', border: '#d8b4fe' };
 }

@@ -72,8 +72,8 @@
 <style>
   /* ── Tarjeta ─────────────────────────────────────── */
   .event-card {
-    background-color: var(--color-bg-card, #16191d);
-    border: 1px solid var(--color-border, #2a2a45);
+    background-color: var(--color-bg-card, #ece3d3);
+    border: 1px solid var(--color-border, #d4c5aa);
     border-radius: var(--radius-card, 1rem);
     overflow: hidden;
     display: flex;
@@ -84,7 +84,7 @@
 
   .event-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px var(--cat-border);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 0 0 1px var(--cat-border);
     border-color: var(--cat-border);
   }
 
@@ -93,7 +93,7 @@
     position: relative;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    background-color: #1a1a2e;
+    background-color: #dbceb6;
   }
 
   .card-img-wrap img {
@@ -112,7 +112,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(14,16,18,0.85) 0%, transparent 55%);
+    background: linear-gradient(to top, rgba(236,227,211,0.9) 0%, transparent 55%);
     pointer-events: none;
   }
 
@@ -143,9 +143,9 @@
     border-radius: 9999px;
     font-size: 0.78rem;
     font-weight: 700;
-    background-color: rgba(14, 16, 18, 0.75);
-    color: var(--color-accent-light, #c8b39a);
-    border: 1px solid rgba(200, 179, 154, 0.25);
+    background-color: rgba(236, 227, 211, 0.85);
+    color: var(--color-text-secondary, #6b5f4d);
+    border: 1px solid var(--color-border, #d4c5aa);
     backdrop-filter: blur(8px);
   }
 
@@ -167,7 +167,7 @@
     font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.3;
-    color: #f5f3f0;
+    color: var(--color-text-primary, #2b2418);
     letter-spacing: -0.01em;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -177,7 +177,7 @@
 
   .card-producer {
     font-size: 0.75rem;
-    color: #626a75;
+    color: var(--color-text-muted, #9d8f7a);
     font-weight: 500;
   }
 
@@ -194,7 +194,7 @@
     align-items: flex-start;
     gap: 0.4rem;
     font-size: 0.8rem;
-    color: #a1a8b3;
+    color: var(--color-text-secondary, #6b5f4d);
     line-height: 1.4;
   }
 
