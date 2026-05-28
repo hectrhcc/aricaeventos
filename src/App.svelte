@@ -142,7 +142,7 @@
   <main id="main-content" class="main-content">
 
     <!-- ── Carrusel de eventos en Arica ── -->
-    <EventCarousel eventos={eventosFiltrados} />
+    <EventCarousel eventos={todos} />
 
     <!-- ── Barra de búsqueda y filtros ── -->
     <section class="section-filters" aria-label="Filtros de búsqueda">
