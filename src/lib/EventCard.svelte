@@ -17,7 +17,7 @@
   const esGratis = $derived(evento.precio_desde === 0);
 
   let imgError = $state(false);
-  const FALLBACK = 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=500&fit=crop';
+  const sinImagen = $derived(!evento.imagen || imgError);
 </script>
 
 <!-- Tarjeta principal -->
@@ -26,14 +26,23 @@
   style="--cat-bg:{colores.bg}; --cat-text:{colores.text}; --cat-border:{colores.border};"
 >
   <!-- ── Imagen ── -->
-  <div class="card-img-wrap">
-    <img
-      src={imgError ? FALLBACK : evento.imagen}
-      alt={`Imagen de ${evento.titulo}`}
-      loading="lazy"
-      decoding="async"
-      onerror={() => (imgError = true)}
-    />
+  <div class="card-img-wrap" class:no-image={sinImagen}>
+    {#if sinImagen}
+      <!-- Placeholder decorativo sin imagen -->
+      <div class="img-placeholder" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+        </svg>
+      </div>
+    {:else}
+      <img
+        src={evento.imagen}
+        alt={`Imagen de ${evento.titulo}`}
+        loading="lazy"
+        decoding="async"
+        onerror={() => (imgError = true)}
+      />
+    {/if}
     <!-- Badge de categoría sobre la imagen -->
     <span class="cat-badge">{evento.categoria}</span>
     <!-- Precio flotante -->
@@ -91,7 +100,7 @@
   /* ── Imagen ──────────────────────────────────────── */
   .card-img-wrap {
     position: relative;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
     background-color: #dbceb6;
   }
@@ -99,8 +108,8 @@
   .card-img-wrap img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: center top;
+    object-fit: cover;
+    object-position: center;
     transition: transform 0.4s ease;
   }
 
@@ -108,13 +117,46 @@
     transform: scale(1.04);
   }
 
-  /* Overlay degradado — solo visible si la imagen no llena el contenedor */
+  /* ── Placeholder sin imagen ──────────────────── */
+  .img-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #e4d9c5 0%, #dbceb6 100%);
+    transition: transform 0.4s ease;
+  }
+
+  .img-placeholder svg {
+    width: 4rem;
+    height: 4rem;
+    color: #c8b39a;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .event-card:hover .img-placeholder svg {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+
+  .event-card:hover .img-placeholder {
+    transform: scale(1.04);
+  }
+
+  /* Overlay degradado */
   .card-img-wrap::after {
     content: '';
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(236,227,211,0.9) 0%, transparent 60%);
     pointer-events: none;
+  }
+
+  /* Overlay más sutil cuando no hay imagen real */
+  .card-img-wrap.no-image::after {
+    background: linear-gradient(to top, rgba(236,227,211,0.75) 0%, transparent 45%);
   }
 
   /* ── Badges flotantes ──────────────────────────── */
