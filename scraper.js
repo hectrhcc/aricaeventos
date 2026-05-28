@@ -10,38 +10,54 @@ const MESES = {
   'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
 };
 
-/**
- * Mapea las categorías RAW del sitio a las categorías de filtro de la app.
- */
 const MAPA_CATEGORIAS = {
   'cultura'        : 'Cultura',
-  'comunidad'      : 'Fiestas',   // Eventos comunitarios → Fiestas
+  'comunidad'      : 'Fiestas',
   'deportes'       : 'Deportes',
-  'medio ambiente' : 'Cultura',   // Charlas/talleres ambientales
+  'medio ambiente' : 'Cultura',
   'cine municipal' : 'Cultura',
 };
 
-// Las categorías RAW ordenadas de mayor a menor longitud para evitar matches parciales
 const CATS_RAW = Object.keys(MAPA_CATEGORIAS).sort((a, b) => b.length - a.length);
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
 /**
- * Parsea una fecha tipo "27 Junio 2026" → "2026-06-27"
+ * Parsea una fecha tipo "27 Junio 2026" o "27/06/2026" → "2026-06-27"
  */
 function parsearFecha(texto) {
-  const re = new RegExp(`(\\d{1,2})\\s*(${Object.keys(MESES).join('|')})\\s*(\\d{4})`, 'i');
-  const m = texto.match(re);
-  if (!m) return null;
-  const dia = m[1].padStart(2, '0');
-  const mes = MESES[m[2].toLowerCase()];
-  return `${m[3]}-${mes}-${dia}`;
+  if (!texto) return null;
+
+  // 1. Formato con texto: "27 Junio 2026"
+  const rePalabras = new RegExp(`(\\d{1,2})\\s*(${Object.keys(MESES).join('|')})\\s*(\\d{4})`, 'i');
+  const mPalabras = texto.match(rePalabras);
+  if (mPalabras) {
+    const dia = mPalabras[1].padStart(2, '0');
+    const mes = MESES[mPalabras[2].toLowerCase()];
+    return `${mPalabras[3]}-${mes}-${dia}`;
+  }
+
+  // 2. Formato numérico: "27/06/2026" o "27-06-2026"
+  const reNumeros = /(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})/;
+  const mNumeros = texto.match(reNumeros);
+  if (mNumeros) {
+    const dia = mNumeros[1].padStart(2, '0');
+    const mes = mNumeros[2].padStart(2, '0');
+    return `${mNumeros[3]}-${mes}-${dia}`;
+  }
+
+  return null;
 }
 
 /**
- * Extrae la categoría de la app a partir del texto RAW de la tarjeta.
- * Busca la primera categoría conocida justo después de la fecha.
+ * Extrae números de un string de precio (ej: "Desde $30.000 CLP" → 30000)
  */
+function parsearPrecio(texto) {
+  if (!texto) return 0;
+  const limpio = texto.replace(/[^\d]/g, ''); // Deja solo los dígitos
+  return parseInt(limpio, 10) || 0;
+}
+
 function extraerCategoria(texto) {
   const reFecha = new RegExp(`(\\d{1,2})\\s*(${Object.keys(MESES).join('|')})\\s*(\\d{4})`, 'i');
   const mFecha = texto.match(reFecha);
@@ -56,18 +72,11 @@ function extraerCategoria(texto) {
   return 'Cultura';
 }
 
-/**
- * Extrae el lugar del texto (entre "place" y "Leer más").
- */
 function extraerLugar(texto) {
   const m = texto.match(/place(.+?)Leer\s*más/i);
   return m ? m[1].trim() : '';
 }
 
-/**
- * Palabras que en español se escriben en minúscula dentro de un título
- * (preposiciones, artículos, conjunciones) — salvo que sean la primera palabra.
- */
 const MINUSCULAS = new Set([
   'a', 'al', 'ante', 'bajo', 'cabe', 'con', 'contra', 'de', 'del',
   'desde', 'durante', 'e', 'el', 'en', 'entre', 'hacia', 'hasta',
@@ -76,13 +85,8 @@ const MINUSCULAS = new Set([
   'tras', 'u', 'un', 'una', 'unas', 'unos', 'y',
 ]);
 
-/**
- * Mapa de palabras que pierden su acento en la URL (slug) y hay que restaurarlo.
- */
 const ACENTOS = {
-  // Día / años
   'ano': 'año', 'anos': 'años', 'dia': 'día', 'dias': 'días',
-  // Verbos / sustantivos comunes
   'explotacion': 'explotación', 'exploracion': 'exploración',
   'exposicion': 'exposición', 'actuacion': 'actuación',
   'presentacion': 'presentación', 'celebracion': 'celebración',
@@ -97,75 +101,45 @@ const ACENTOS = {
   'patrimonio': 'patrimonio', 'patrimonios': 'patrimonios',
   'himno': 'himno', 'torneo': 'torneo',
   'escolar': 'escolar', 'universitario': 'universitario',
-  'pasacalle': 'pasacalle',
-  'jornada': 'jornada', 'jornadas': 'jornadas',
+  'pasacalle': 'pasacalle', 'jornada': 'jornada', 'jornadas': 'jornadas',
   'humedal': 'humedal', 'humedales': 'humedales',
-  'cine': 'cine', 'municipal': 'municipal',
-  'cultural': 'cultural', 'deportivo': 'deportivo',
-  'maximo': 'máximo', 'maxima': 'máxima',
-  'ultimo': 'último', 'ultima': 'última',
-  'publico': 'público', 'publica': 'pública',
-  'epoca': 'época', 'pagina': 'página',
-  // Nombres propios (se capitalizan)
-  'arica': 'Arica', 'azapa': 'Azapa',
-  'carlos': 'Carlos', 'dittborn': 'Dittborn',
-  'casino': 'Casino',
+  'cine': 'cine', 'municipal': 'municipal', 'cultural': 'cultural',
+  'deportivo': 'deportivo', 'maximo': 'máximo', 'maxima': 'máxima',
+  'ultimo': 'último', 'ultima': 'última', 'publico': 'público',
+  'publica': 'pública', 'epoca': 'época', 'pagina': 'página',
+  'arica': 'Arica', 'azapa': 'Azapa', 'carlos': 'Carlos',
+  'dittborn': 'Dittborn', 'casino': 'Casino',
 };
 
-/** Regex: números romanos del 1 al 100 */
 const ROMANO = /^(?:i{1,3}|iv|v|vi{1,3}|ix|x|xi{1,3}|xiv|xv|xvi{1,3}|xix|xx|xxx|xl|l|lx|lxx|lxxx|xc|c)$/i;
 
-/**
- * Convierte un slug de URL en un título limpio respetando las reglas del español.
- *
- * Reglas:
- * 1. Preposiciones/artículos en minúscula (salvo primera palabra)
- * 2. Restaura acentos de palabras conocidas
- * 3. Detecta números romanos y los deja en mayúscula
- * 4. Capitaliza la primera letra del resto
- *
- * Ej: "vuelve-la-ginga"      → "Vuelve la Ginga"
- *     "dia-de-los-patrimonios-2026" → "Día de los Patrimonios 2026"
- *     "vi-feria-de-emprendedores"   → "VI Feria de Emprendedores"
- */
 function slugATitulo(url) {
   const slug = (url.split('/').pop() || '').toLowerCase();
   if (!slug) return 'Evento Municipal';
 
   const palabras = slug.split('-');
-
   const resultado = palabras.map((p, i) => {
     if (!p) return '';
-
-    // 1. Números → se dejan tal cual
     if (/^\d+$/.test(p)) return p;
-
-    // 2. Número romano → mayúscula
     if (ROMANO.test(p)) return p.toUpperCase();
-
-    // 3. Preposición/artículo en minúscula (excepto primera palabra)
     if (i > 0 && MINUSCULAS.has(p)) return p;
-
-    // 4. Restaurar acento si existe en el mapa
     const conAcento = ACENTOS[p] || p;
-
-    // 5. Capitalizar primera letra
     return conAcento.charAt(0).toUpperCase() + conAcento.slice(1);
   });
 
   return resultado.filter(Boolean).join(' ');
 }
 
-// ─── Scraper principal ─────────────────────────────────────────────────────────
+// ─── Scrapers por Sitio Web ───────────────────────────────────────────────────
 
+/**
+ * SCRAPER 1: Municipalidad de Arica
+ */
 async function scrapeMuniArica() {
-  console.log('🚀 Iniciando extracción quirúrgica (Estructura Quasar)...');
-
+  console.log('🚀 Iniciando extracción en Muni Arica (Estructura Quasar)...');
   try {
     const { data: html } = await axios.get('https://muniarica.cl/eventos', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
-      },
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
       timeout: 15000
     });
 
@@ -173,34 +147,18 @@ async function scrapeMuniArica() {
     const resultado = [];
     let contador = 1;
 
-    const tarjetasEventos = 'a[href*="/eventos/publicacion/"]';
-
-    $(tarjetasEventos).each((_index, element) => {
+    $('a[href*="/eventos/publicacion/"]').each((_index, element) => {
       const el = $(element);
-
-      // ── URL ──
       const urlRelativa = el.attr('href') || '';
-      const urlTicket = urlRelativa.startsWith('/')
-        ? 'https://muniarica.cl' + urlRelativa
-        : urlRelativa;
+      const urlTicket = urlRelativa.startsWith('/') ? 'https://muniarica.cl' + urlRelativa : urlRelativa;
 
-      // ── Imagen ──
       let imagen = el.find('.card-image').attr('src') || el.find('img').attr('src') || '';
       if (imagen && imagen.startsWith('/')) imagen = 'https://muniarica.cl' + imagen;
 
-      // ── Texto completo de la tarjeta (fecha + categoría + título + place + lugar) ──
       const texto = el.find('.q-card__section').text().trim();
-
-      // ── Título (slug de la URL) ──
       const titulo = slugATitulo(urlRelativa);
-
-      // ── Fecha ──
       const fecha = parsearFecha(texto) || '2026-06-01';
-
-      // ── Categoría (mapeada para los filtros de la app) ──
       const categoria = extraerCategoria(texto);
-
-      // ── Lugar ──
       const lugar = extraerLugar(texto) || 'Centro Cultural / Espacio Público';
 
       resultado.push({
@@ -217,20 +175,108 @@ async function scrapeMuniArica() {
       });
     });
 
+    console.log(`✅ Muni Arica finalizado. Encontrados: ${resultado.length} eventos.`);
     return resultado;
-
   } catch (error) {
-    console.error('⚠️  Error de red al conectar con la Municipalidad:', error.message);
+    console.error('⚠️ Error de red en Municipalidad:', error.message);
     return [];
   }
 }
 
+/**
+ * SCRAPER 2: Panoramas Arica
+ */
+async function scrapePanoramasArica() {
+  console.log('🚀 Iniciando extracción en Panoramas Arica (Búsqueda por Queries)...');
+  
+  // Definimos las URLs de búsqueda y la categoría final en tu app
+  const fuentes = [
+    { url: 'https://www.panoramasarica.cl/?q=Eventos%20deportivos', categoria: 'Deportes' },
+    { url: 'https://www.panoramasarica.cl/?q=Eventos%20culturales', categoria: 'Cultura' }
+  ];
+
+  const resultado = [];
+  let contador = 1;
+
+  for (const fuente of fuentes) {
+    try {
+      console.log(`🔎 Buscando resultados para: ${fuente.categoria}...`);
+      const { data: html } = await axios.get(fuente.url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+        timeout: 15000
+      });
+
+      const $ = cheerio.load(html);
+
+      // ───────────────────────────────────────────────────────────────────────
+      // ⚠️ ATENCIÓN AQUÍ: Debes inspeccionar la web con tus DevTools 
+      // y ajustar estos selectores CSS según la estructura real de Panoramas Arica.
+      // ───────────────────────────────────────────────────────────────────────
+      const tarjetaSelector = '.card, .product-card, div[class*="item"]'; // Ajustar clase de la tarjeta contenedora
+      
+      $(tarjetaSelector).each((_index, element) => {
+        const el = $(element);
+
+        // Extraer título del panorama
+        const titulo = el.find('h3, h4, .title, .titulo').text().trim();
+        if (!titulo) return; // Si no hay título en este contenedor, saltamos al siguiente
+
+        // URL del detalle / inscripción
+        let urlRelativa = el.find('a').attr('href') || '';
+        const urlTicket = urlRelativa.startsWith('/') ? 'https://www.panoramasarica.cl' + urlRelativa : urlRelativa || fuente.url;
+
+        // Imagen promocional
+        let imagen = el.find('img').attr('src') || '';
+        if (imagen && imagen.startsWith('/')) imagen = 'https://www.panoramasarica.cl' + imagen;
+
+        // Fecha y Lugar (PanoramasArica suele mostrar rangos o fechas en texto)
+        const textoFecha = el.find('.fecha, .date, span:contains("/")').text().trim();
+        const fecha = parsearFecha(textoFecha) || '2026-06-15'; // Fallback si no logra parsearla
+
+        const lugar = el.find('.ubicacion, .lugar, .location').text().trim() || 'Arica, Región de Arica y Parinacota';
+
+        // Precio (esta web vende tours/entradas, ej: "Desde $30.000")
+        const textoPrecio = el.find('.precio, .price, :contains("$")').text().trim();
+        const precio_desde = parsearPrecio(textoPrecio);
+
+        resultado.push({
+          id: `panoramas-${Date.now()}-${contador++}`,
+          titulo,
+          productora: 'Panoramas Arica',
+          fecha,
+          hora: '10:00', // Valor por defecto si no viene explícito
+          lugar,
+          precio_desde,
+          categoria: fuente.categoria,
+          imagen,
+          url_ticket: urlTicket
+        });
+      });
+
+    } catch (error) {
+      console.error(`⚠️ Error al buscar en Panoramas Arica (${fuente.categoria}):`, error.message);
+    }
+  }
+
+  console.log(`✅ Panoramas Arica finalizado. Encontrados: ${resultado.length} eventos.`);
+  return resultado;
+}
+
+// ─── Main ──────────────────────────────────────────────────────────────────────
+
 async function main() {
   try {
-    const eventosMunicipales = await scrapeMuniArica();
+    // Ejecutamos ambos scrapers en paralelo
+    const [eventosMunicipales, eventosPanoramas] = await Promise.all([
+      scrapeMuniArica(),
+      scrapePanoramasArica()
+    ]);
+
+    // Combinamos todos los eventos en una sola lista
+    const todosLosEventos = [...eventosMunicipales, ...eventosPanoramas];
     
-    if (!eventosMunicipales || eventosMunicipales.length === 0) {
-      console.log("🔒 Proceso finalizado de forma segura: No se detectaron tarjetas con la estructura Quasar.");
+    if (todosLosEventos.length === 0) {
+      console.log("🔒 Proceso finalizado: No se logró recolectar ningún evento de las fuentes.");
       process.exit(0); 
     }
 
@@ -238,13 +284,13 @@ async function main() {
     if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true });
 
     const outputPath = path.join(publicDir, 'eventos.json');
-    fs.writeFileSync(outputPath, JSON.stringify(eventosMunicipales, null, 2), 'utf-8');
+    fs.writeFileSync(outputPath, JSON.stringify(todosLosEventos, null, 2), 'utf-8');
     
-    console.log(`\n🎉 [ÉXITO] ¡Target alcanzado! Se estructuraron ${eventosMunicipales.length} eventos reales basados en las DevTools.`);
+    console.log(`\n🎉 [ÉXITO] Archivo generado con un total de ${todosLosEventos.length} eventos combinados.`);
     process.exit(0);
 
   } catch (error) {
-    console.error("❌ Fallo retenido:", error.message);
+    console.error("❌ Fallo crítico en el proceso general:", error.message);
     process.exit(0); 
   }
 }
