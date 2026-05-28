@@ -1,10 +1,6 @@
 [
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580732-1",
-=======
-    "id": "muni-1779985114309-1",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784958-1",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -16,11 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580732-2",
-=======
-    "id": "muni-1779985114309-2",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784958-2",
     "titulo": "Esperando el 7 de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-06",
@@ -32,11 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/esperando-el-7-de-junio"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580732-3",
-=======
-    "id": "muni-1779985114309-3",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784958-3",
     "titulo": "Arica Celebra los 71 Años de su Himno",
     "productora": "Muni Arica",
     "fecha": "2026-06-01",
@@ -48,11 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-celebra-los-71-anos-de-su-himno"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580732-4",
-=======
-    "id": "muni-1779985114310-4",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784959-4",
     "titulo": "Día de los Patrimonios 2026",
     "productora": "Muni Arica",
     "fecha": "2026-05-31",
@@ -64,11 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/dia-de-los-patrimonios-2026"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580732-5",
-=======
-    "id": "muni-1779985114310-5",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784959-5",
     "titulo": "Muestra Cultural 2026 Día de los Patrimonios",
     "productora": "Muni Arica",
     "fecha": "2026-05-30",
@@ -80,11 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/muestra-cultural-2026-dia-de-los-patrimonios"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-6",
-=======
-    "id": "muni-1779985114310-6",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784959-6",
     "titulo": "VI Feria de Emprendedores Rurales Frutos del Norte",
     "productora": "Muni Arica",
     "fecha": "2026-05-30",
@@ -96,11 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vi-feria-de-emprendedores-rurales-frutos-del-norte"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-7",
-=======
-    "id": "muni-1779985114311-7",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784959-7",
     "titulo": "1 Torneo de Atletismo Escolar",
     "productora": "Muni Arica",
     "fecha": "2026-05-20",
@@ -112,11 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/1-torneo-de-atletismo-escolar"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-8",
-=======
-    "id": "muni-1779985114311-8",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784960-8",
     "titulo": "Disco Retro 1",
     "productora": "Muni Arica",
     "fecha": "2026-05-20",
@@ -128,11 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/disco-retro-1"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-9",
-=======
-    "id": "muni-1779985114311-9",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784960-9",
     "titulo": "Lucha Libre en Vivo",
     "productora": "Muni Arica",
     "fecha": "2026-05-17",
@@ -144,11 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/lucha-libre-en-vivo"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-10",
-=======
-    "id": "muni-1779985114311-10",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784960-10",
     "titulo": "Star Walk Pasacalle Galáctico",
     "productora": "Muni Arica",
     "fecha": "2026-05-16",
@@ -160,11 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/star-walk-pasacalle-galactico"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-11",
-=======
-    "id": "muni-1779985114311-11",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784960-11",
     "titulo": "Toy Story 3",
     "productora": "Muni Arica",
     "fecha": "2026-05-16",
@@ -176,11 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/toy-story-3"
   },
   {
-<<<<<<< HEAD
-    "id": "muni-1779984580733-12",
-=======
-    "id": "muni-1779985114311-12",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
+    "id": "muni-1779985784960-12",
     "titulo": "Jornada de Exploración de Humedal en Arica",
     "productora": "Muni Arica",
     "fecha": "2026-05-16",
@@ -192,8 +144,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/jornada-de-exploracion-de-humedal-en-arica"
   },
   {
-<<<<<<< HEAD
-    "id": "panoramas-1779984579727-1",
+    "id": "panoramas-1779985784602-1",
     "titulo": "Tienda Pawa",
     "productora": "Panoramas Arica",
     "fecha": "2026-05-29",
@@ -205,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/tienda-pawa"
   },
   {
-    "id": "panoramas-1779984579727-2",
+    "id": "panoramas-1779985784602-2",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
     "fecha": "2026-05-29",
@@ -217,7 +168,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1779984579727-3",
+    "id": "panoramas-1779985784602-3",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
     "fecha": "2026-05-30",
@@ -229,7 +180,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1779984580098-4",
+    "id": "panoramas-1779985784768-4",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
@@ -238,53 +189,6 @@
     "precio_desde": 380,
     "categoria": "Deportes",
     "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/pppp%20%281%29.png",
-=======
-    "id": "panoramas-1779985114599-1",
-    "titulo": "Tienda Pawa",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-06-15",
-    "hora": "10:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/tienda-pawa"
-  },
-  {
-    "id": "panoramas-1779985114599-2",
-    "titulo": "Rutas Gastronómicas con Mr. Chiss",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-06-15",
-    "hora": "10:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
-  },
-  {
-    "id": "panoramas-1779985114599-3",
-    "titulo": "Cerámicas del Norte Descuentos",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-06-15",
-    "hora": "10:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
-  },
-  {
-    "id": "panoramas-1779985114882-4",
-    "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-06-15",
-    "hora": "10:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "",
->>>>>>> c94bec4307e4589376bf06e527458c681b9c927c
     "url_ticket": "https://www.panoramasarica.cl/actividad/2nd-fai-pan-american-paragliding-accuracy-championships"
   }
 ]
