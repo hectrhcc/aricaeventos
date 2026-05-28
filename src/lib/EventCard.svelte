@@ -9,7 +9,8 @@
   /** @type {{ titulo: string, productora: string, fecha: string, hora: string,
    *           lugar: string, precio_desde: number, categoria: string,
    *           imagen: string, url_ticket: string }} */
-  let { evento } = $props();
+  /** @type {(src: string, alt: string) => void} */
+  let { evento, onImageClick } = $props();
 
   const colores  = $derived(colorCategoria(evento.categoria));
   const fechaFmt = $derived(fechaCorta(evento.fecha, evento.hora));
@@ -35,12 +36,18 @@
         </svg>
       </div>
     {:else}
+      <!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions a11y_noninteractive_tabindex -->
       <img
         src={evento.imagen}
         alt={`Imagen de ${evento.titulo}`}
         loading="lazy"
         decoding="async"
         onerror={() => (imgError = true)}
+        class:clickable={!!onImageClick}
+        role={onImageClick ? 'button' : undefined}
+        tabindex={onImageClick ? 0 : undefined}
+        onclick={onImageClick ? () => onImageClick(evento.imagen, `Imagen de ${evento.titulo}`) : undefined}
+        onkeydown={onImageClick ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(evento.imagen, `Imagen de ${evento.titulo}`); } } : undefined}
       />
     {/if}
     <!-- Badge de categoría sobre la imagen -->
@@ -111,6 +118,15 @@
     object-fit: cover;
     object-position: center;
     transition: transform 0.4s ease;
+  }
+
+  .card-img-wrap img.clickable {
+    cursor: pointer;
+  }
+
+  .card-img-wrap img.clickable:focus-visible {
+    outline: 3px solid var(--color-accent, #c8b39a);
+    outline-offset: -3px;
   }
 
   .event-card:hover .card-img-wrap img {

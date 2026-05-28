@@ -6,9 +6,11 @@
    */
   import { onMount } from 'svelte';
   import { fly } from 'svelte/transition';
-  import EventCard    from './lib/EventCard.svelte';
-  import FilterPills  from './lib/FilterPills.svelte';
-  import SearchBar    from './lib/SearchBar.svelte';
+  import EventCard      from './lib/EventCard.svelte';
+  import EventCarousel  from './lib/EventCarousel.svelte';
+  import FilterPills    from './lib/FilterPills.svelte';
+  import ImageModal     from './lib/ImageModal.svelte';
+  import SearchBar      from './lib/SearchBar.svelte';
   import { filtrarPorFecha } from './lib/utils.js';
 
   // ─── Estado ──────────────────────────────────────────────────────────────────
@@ -80,6 +82,21 @@
 
   // Contador reactivo de resultados
   const conteo = $derived(eventosFiltrados.length);
+
+  // ─── Modal de imagen ───────────────────────────────────────────────────────
+  let modalSrc  = $state('');
+  let modalAlt  = $state('');
+  let modalOpen = $state(false);
+
+  function abrirModal(src, alt) {
+    modalSrc  = src;
+    modalAlt  = alt;
+    modalOpen = true;
+  }
+
+  function cerrarModal() {
+    modalOpen = false;
+  }
 </script>
 
 <!-- ─── HTML ──────────────────────────────────────────────────────────────────── -->
@@ -124,7 +141,10 @@
   <!-- ══ CONTENIDO PRINCIPAL ═══════════════════════════════════════════════════ -->
   <main id="main-content" class="main-content">
 
-    <!-- ── Barra de búsqueda ── -->
+    <!-- ── Carrusel de eventos en Arica ── -->
+    <EventCarousel eventos={eventosFiltrados} />
+
+    <!-- ── Barra de búsqueda y filtros ── -->
     <section class="section-filters" aria-label="Filtros de búsqueda">
       <div class="filter-animate" style="--delay: 0ms">
         <SearchBar bind:valor={busqueda} placeholder="Buscar por título, lugar o categoría…" />
@@ -194,7 +214,7 @@
               in:fly={{ y: 24, duration: 450, delay: i * 80, opacity: 0 }}
               out:fly={{ y: -16, duration: 250, opacity: 0 }}
             >
-              <EventCard {evento} />
+              <EventCard {evento} onImageClick={(src, alt) => abrirModal(src, alt)} />
             </div>
           {/each}
         </div>
@@ -202,6 +222,11 @@
 
     </section>
   </main>
+
+  <!-- ══ MODAL DE IMAGEN ════════════════════════════════════════════════════ -->
+  {#if modalOpen}
+    <ImageModal src={modalSrc} alt={modalAlt} onclose={cerrarModal} />
+  {/if}
 
   <!-- ══ FOOTER ═════════════════════════════════════════════════════════════════ -->
   <footer class="site-footer">
