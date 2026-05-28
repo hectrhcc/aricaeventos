@@ -222,12 +222,34 @@
   .hero {
     position: relative;
     overflow: hidden;
-    padding: 3.5rem 1.25rem 4.5rem;
-    background: linear-gradient(160deg, #f0e5d2 0%, #f7f1e8 100%);
+    padding: 4rem 1.25rem 5rem;
+    background: linear-gradient(160deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 100%),
+                url('/aricaeventos.png')
+                center top / cover no-repeat;
     text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* Orbe decorativo */
+  @media (max-width: 767px) {
+    .hero {
+      background-position: 70% top;
+    }
+  }
+
+  /* Overlay sutil extra para profundidad */
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.3) 100%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Orbe decorativo — más sutil para no competir con la imagen */
   .hero-orb {
     position: absolute;
     top: -6rem;
@@ -236,7 +258,7 @@
     width: 28rem;
     height: 28rem;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(200, 179, 154, 0.25) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -245,19 +267,7 @@
     z-index: 1;
     max-width: 38rem;
     margin: 0 auto;
-  }
-
-  /* Eyebrow */
-  .hero-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.78rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--color-accent, #c8b39a);
-    margin-bottom: 1rem;
+    padding: 1rem 0;
   }
 
   .dot {
@@ -279,12 +289,13 @@
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    color: var(--color-text-primary, #2b2418);
+    color: #ffffff;
     margin-bottom: 1rem;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
   }
 
   .hero-title-accent {
-    background: linear-gradient(135deg, #c8b39a 0%, #a0876a 100%);
+    background: linear-gradient(135deg, #f0dcc5 0%, #d4b896 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -292,8 +303,21 @@
 
   .hero-sub {
     font-size: 0.95rem;
-    color: var(--color-text-secondary, #6b5f4d);
+    color: rgba(255, 255, 255, 0.85);
     line-height: 1.65;
+    text-shadow: 0 1px 12px rgba(0,0,0,0.25);
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
   }
 
   /* ── Animación de entrada del hero ────────────── */
