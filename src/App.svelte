@@ -230,7 +230,7 @@
 
   <!-- ══ FOOTER ═════════════════════════════════════════════════════════════════ -->
   <footer class="site-footer">
-    <p>Hecho con <span aria-label="amor">💪</span> en Arica · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
+    <p>Hecho con <span aria-label="amor">💪</span> por <a href="https://pysquad.vercel.app/" target="_blank" rel="noopener noreferrer" class="pysquad-link"><span class="py-color">Py</span><span class="squad-color">Squad</span></a> · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
   </footer>
 
 </div>
@@ -260,7 +260,7 @@
 
   @media (max-width: 767px) {
     .hero {
-      background-position: 70% top;
+      background-position: 60% top;
     }
   }
 
@@ -534,6 +534,25 @@
     font-size: 0.8rem;
     color: var(--color-text-muted, #9d8f7a);
     border-top: 1px solid var(--color-border, #d4c5aa);
+  }
+
+  .pysquad-link {
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .pysquad-link:hover {
+    opacity: 0.8;
+  }
+
+  .py-color {
+    color: #3776AB;
+    font-weight: 700;
+  }
+
+  .squad-color {
+    color: #FFD43B;
+    font-weight: 700;
   }
 
   /* ── Skip link ────────────────────────────────── */

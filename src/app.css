@@ -5,7 +5,7 @@
   --font-family-sans: 'Outfit', system-ui, sans-serif;
 
   /* Colores base (Paleta Cálida / Beige Claro) */
-  --color-bg-base:    #f7f1e8; /* Fondo principal — crema cálido */
+  --color-bg-base:    #ffffff; /* Fondo principal — blanco */
   --color-bg-card:    #ece3d3; /* Tarjetas — beige suave más oscuro */
   --color-bg-surface: #e4d9c5; /* Inputs y superficies secundarias */
   --color-bg-elevated:#dbceb6;
