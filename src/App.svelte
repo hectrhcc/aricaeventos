@@ -230,7 +230,7 @@
 
   <!-- ══ FOOTER ═════════════════════════════════════════════════════════════════ -->
   <footer class="site-footer">
-    <p>Hecho con <span aria-label="amor">💪</span> por <a href="https://pysquad.vercel.app/" target="_blank" rel="noopener noreferrer" class="pysquad-link"><span class="py-color">Py</span><span class="squad-color">Squad</span></a> · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
+    <p>Hecho con <span aria-label="amor">💪</span> por <a href="https://pysquad.vercel.app/" target="_blank" rel="noopener noreferrer" class="pysquad-link pysquad-blue">PySquad</a> · <strong>Eventos Arica</strong> {new Date().getFullYear()}</p>
   </footer>
 
 </div>
@@ -537,21 +537,30 @@
   }
 
   .pysquad-link {
+    position: relative;
     text-decoration: none;
-    transition: opacity 0.2s;
   }
 
-  .pysquad-link:hover {
-    opacity: 0.8;
+  .pysquad-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #3776AB;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
   }
 
-  .py-color {
+  .pysquad-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .pysquad-blue {
     color: #3776AB;
-    font-weight: 700;
-  }
-
-  .squad-color {
-    color: #FFD43B;
     font-weight: 700;
   }
 
