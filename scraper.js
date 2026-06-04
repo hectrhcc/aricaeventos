@@ -12,11 +12,33 @@ const MESES = {
 
 const MAPA_CATEGORIAS = {
   'cultura'        : 'Cultura',
-  'comunidad'      : 'Fiestas',   
+  'comunidad'      : 'Cultura',    // comunidad es un tag genérico municipal, no implica fiesta
   'deportes'       : 'Deportes',
-  'medio ambiente' : 'Cultura',   
+  'deporte'        : 'Deportes',
+  'medio ambiente' : 'Cultura',
   'cine municipal' : 'Cultura',
+  'salud'          : 'Cultura',
+  'educacion'      : 'Cultura',
+  'educación'      : 'Cultura',
+  'taller'         : 'Cultura',
+  'arte'           : 'Cultura',
+  'patrimonio'     : 'Cultura',
 };
+
+// Palabras clave en el SLUG/TÍTULO que sí indican una fiesta o celebración
+const KEYWORDS_FIESTAS = [
+  'fiesta', 'carnaval', 'aniversario', 'celebracion', 'celebración',
+  'noche', 'cumpleanos', 'cumpleaños', 'halloween', 'nochevieja',
+  'verbena', 'baile', 'disco', 'cocktail', 'coctel', 'brindis',
+  'gala', 'festejo', 'festejo'
+];
+
+// Palabras clave en el SLUG/TÍTULO que indican deporte
+const KEYWORDS_DEPORTES = [
+  'cup', 'torneo', 'campeonato', 'olimpiada', 'deporte', 'deportivo',
+  'futbol', 'fútbol', 'running', 'maraton', 'maratón', 'ciclismo',
+  'parapente', 'paragliding', 'tenis', 'voleibol', 'basquetbol'
+];
 
 const CATS_RAW = Object.keys(MAPA_CATEGORIAS).sort((a, b) => b.length - a.length);
 
@@ -84,17 +106,32 @@ function parsearFecha(texto) {
   return null;
 }
 
-function extraerCategoria(texto) {
+function extraerCategoria(texto, slug = '') {
+  // 1) Intentar extraer la categoría del texto que viene después de la fecha
   const reFecha = new RegExp(`(\\d{1,2})\\s*(${Object.keys(MESES).join('|')})\\s*(\\d{4})`, 'i');
   const mFecha = texto.match(reFecha);
-  if (!mFecha) return 'Cultura';
 
-  const despuesFecha = texto.slice(mFecha.index + mFecha[0].length).toLowerCase();
-  for (const raw of CATS_RAW) {
-    if (despuesFecha.startsWith(raw)) {
-      return MAPA_CATEGORIAS[raw];
+  if (mFecha) {
+    const despuesFecha = texto.slice(mFecha.index + mFecha[0].length).toLowerCase().trim();
+    for (const raw of CATS_RAW) {
+      if (despuesFecha.startsWith(raw)) {
+        return MAPA_CATEGORIAS[raw];
+      }
     }
   }
+
+  // 2) Fallback: analizar keywords en el slug/título para detectar fiestas o deportes
+  const textoLower = (slug + ' ' + texto).toLowerCase();
+
+  for (const kw of KEYWORDS_DEPORTES) {
+    if (textoLower.includes(kw)) return 'Deportes';
+  }
+
+  for (const kw of KEYWORDS_FIESTAS) {
+    if (textoLower.includes(kw)) return 'Fiestas';
+  }
+
+  // 3) Default seguro: Cultura (evita clasificar talleres/yoga como Fiestas)
   return 'Cultura';
 }
 
@@ -149,7 +186,7 @@ async function scrapeMuniArica() {
       const texto = el.find('.q-card__section').text().trim();
       const titulo = slugATitulo(urlRelativa);
       const fecha = parsearFecha(texto) || '2026-06-01';
-      const categoria = extraerCategoria(texto);
+      const categoria = extraerCategoria(texto, urlRelativa); // pasamos el slug para mejor clasificación
       const lugar = extraerLugar(texto) || 'Centro Cultural / Espacio Público';
 
       resultado.push({
