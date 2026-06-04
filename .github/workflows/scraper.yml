@@ -36,8 +36,8 @@ jobs:
     # 5. Guarda los cambios y los sube al repositorio si el JSON cambió
     - name: Hacer Commit y Push de los nuevos eventos
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "hectrhcc"
+        git config --global user.email "hcontrerascorvacho@gmail.com"
         
         # Forzamos agregar el json de eventos si es que cambió
         git add public/eventos.json 
