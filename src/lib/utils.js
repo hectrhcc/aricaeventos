@@ -93,6 +93,8 @@ const COLORES_CAT = {
   'En vivo'  : { bg: '#e0f2fe', text: '#0284c7', border: '#7dd3fc' },
   'Deportes' : { bg: '#dcfce7', text: '#16a34a', border: '#86efac' },
   'Cultura'  : { bg: '#fef3c7', text: '#d97706', border: '#fcd34d' },
+  'Cine'     : { bg: '#ede9fe', text: '#7c3aed', border: '#c4b5fd' },
+  'Taller'   : { bg: '#ccfbf1', text: '#0f766e', border: '#5eead4' },
 };
 
 export function colorCategoria(cat) {

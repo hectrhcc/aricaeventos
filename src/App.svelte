@@ -27,7 +27,8 @@
   const opsCat = [
     { label: '✦ Todos',     value: 'todos'    },
     { label: '🎉 Fiestas',  value: 'Fiestas'  },
-    { label: '🎵 En vivo',  value: 'En vivo'  },
+    { label: '🎬 Cine',     value: 'Cine'     },
+    { label: '🛠️ Taller',   value: 'Taller'   },
     { label: '🏃 Deportes', value: 'Deportes' },
     { label: '🎨 Cultura',  value: 'Cultura'  },
   ];

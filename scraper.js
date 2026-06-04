@@ -16,21 +16,34 @@ const MAPA_CATEGORIAS = {
   'deportes'       : 'Deportes',
   'deporte'        : 'Deportes',
   'medio ambiente' : 'Cultura',
-  'cine municipal' : 'Cultura',
+  'cine municipal' : 'Cine',       // cine municipal → categoría específica Cine
   'salud'          : 'Cultura',
   'educacion'      : 'Cultura',
   'educación'      : 'Cultura',
-  'taller'         : 'Cultura',
+  'taller'         : 'Taller',     // taller → categoría específica Taller
   'arte'           : 'Cultura',
   'patrimonio'     : 'Cultura',
 };
+
+// Palabras clave en el SLUG/TÍTULO que indican Cine
+const KEYWORDS_CINE = [
+  'cine', 'pelicula', 'película', 'film', 'documental', 'cortometraje',
+  'animacion', 'animación', 'proyeccion', 'proyección', 'cinema'
+];
+
+// Palabras clave en el SLUG/TÍTULO que indican Taller
+const KEYWORDS_TALLER = [
+  'taller', 'workshop', 'capacitacion', 'capacitación', 'curso',
+  'seminario', 'charla', 'clase', 'yoga', 'diagnostico', 'diagnóstico',
+  'formacion', 'formación'
+];
 
 // Palabras clave en el SLUG/TÍTULO que sí indican una fiesta o celebración
 const KEYWORDS_FIESTAS = [
   'fiesta', 'carnaval', 'aniversario', 'celebracion', 'celebración',
   'noche', 'cumpleanos', 'cumpleaños', 'halloween', 'nochevieja',
   'verbena', 'baile', 'disco', 'cocktail', 'coctel', 'brindis',
-  'gala', 'festejo', 'festejo'
+  'gala', 'festejo'
 ];
 
 // Palabras clave en el SLUG/TÍTULO que indican deporte
@@ -106,6 +119,9 @@ function parsearFecha(texto) {
   return null;
 }
 
+// Tags genéricos del municipio que no definen bien la categoría → dejar pasar a keywords
+const TAGS_GENERICOS = new Set(['comunidad', 'cultura', 'arte', 'patrimonio']);
+
 function extraerCategoria(texto, slug = '') {
   // 1) Intentar extraer la categoría del texto que viene después de la fecha
   const reFecha = new RegExp(`(\\d{1,2})\\s*(${Object.keys(MESES).join('|')})\\s*(\\d{4})`, 'i');
@@ -115,13 +131,24 @@ function extraerCategoria(texto, slug = '') {
     const despuesFecha = texto.slice(mFecha.index + mFecha[0].length).toLowerCase().trim();
     for (const raw of CATS_RAW) {
       if (despuesFecha.startsWith(raw)) {
-        return MAPA_CATEGORIAS[raw];
+        const cat = MAPA_CATEGORIAS[raw];
+        // Si el tag es genérico, no retornar aún — dejar que el slug refine
+        if (!TAGS_GENERICOS.has(raw)) return cat;
+        break; // tag genérico encontrado, salir del loop y continuar con keywords
       }
     }
   }
 
-  // 2) Fallback: analizar keywords en el slug/título para detectar fiestas o deportes
+  // 2) Keywords del slug/título tienen prioridad sobre tags genéricos
   const textoLower = (slug + ' ' + texto).toLowerCase();
+
+  for (const kw of KEYWORDS_CINE) {
+    if (textoLower.includes(kw)) return 'Cine';
+  }
+
+  for (const kw of KEYWORDS_TALLER) {
+    if (textoLower.includes(kw)) return 'Taller';
+  }
 
   for (const kw of KEYWORDS_DEPORTES) {
     if (textoLower.includes(kw)) return 'Deportes';
@@ -131,7 +158,7 @@ function extraerCategoria(texto, slug = '') {
     if (textoLower.includes(kw)) return 'Fiestas';
   }
 
-  // 3) Default seguro: Cultura (evita clasificar talleres/yoga como Fiestas)
+  // 3) Default seguro: Cultura
   return 'Cultura';
 }
 
