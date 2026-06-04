@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1780106792819-1",
+    "id": "muni-1780490291263-1",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1780106792819-2",
+    "id": "muni-1780490291264-2",
     "titulo": "Esperando el 7 de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-06",
@@ -24,7 +24,43 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/esperando-el-7-de-junio"
   },
   {
-    "id": "muni-1780106792819-3",
+    "id": "muni-1780490291264-3",
+    "titulo": "Cambiaton de Laminas Mundial 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-05",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/146-18:02.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-de-laminas-mundial-2026"
+  },
+  {
+    "id": "muni-1780490291264-4",
+    "titulo": "Taller de Yoga Mes de Junio",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-05",
+    "hora": "19:00",
+    "lugar": "Centro Comunitario de Cuidados \"Altos del Mar\"",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/145-11:11.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-yoga-mes-de-junio"
+  },
+  {
+    "id": "muni-1780490291264-5",
+    "titulo": "Inauguración Conjunto Escultorico Momias Chinchorro",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-04",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/147-18:06.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/inauguracion-conjunto-escultorico-momias-chinchorro"
+  },
+  {
+    "id": "muni-1780490291265-6",
     "titulo": "Arica Cup 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-03",
@@ -36,7 +72,31 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-cup-2026"
   },
   {
-    "id": "muni-1780106792820-4",
+    "id": "muni-1780490291265-7",
+    "titulo": "Diagnostico Participativo Programa Estrategia de Desarrollo Local Inclusivo",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-02",
+    "hora": "19:00",
+    "lugar": "Ex Casino Arica",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/144-11:07.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/diagnostico-participativo-programa-estrategia-de-desarrollo-local-inclusivo"
+  },
+  {
+    "id": "muni-1780490291265-8",
+    "titulo": "Taller Ciclo Gestion Empresarial Sercotec",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-02",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/143-11:04.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-ciclo-gestion-empresarial-sercotec"
+  },
+  {
+    "id": "muni-1780490291265-9",
     "titulo": "Arica Celebra los 71 Años de su Himno",
     "productora": "Muni Arica",
     "fecha": "2026-06-01",
@@ -48,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-celebra-los-71-anos-de-su-himno"
   },
   {
-    "id": "muni-1780106792820-5",
+    "id": "muni-1780490291266-10",
     "titulo": "Día de los Patrimonios 2026",
     "productora": "Muni Arica",
     "fecha": "2026-05-31",
@@ -60,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/dia-de-los-patrimonios-2026"
   },
   {
-    "id": "muni-1780106792820-6",
+    "id": "muni-1780490291266-11",
     "titulo": "Cenicienta",
     "productora": "Muni Arica",
     "fecha": "2026-05-30",
@@ -72,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/cenicienta"
   },
   {
-    "id": "muni-1780106792820-7",
+    "id": "muni-1780490291266-12",
     "titulo": "Muestra Cultural 2026 Día de los Patrimonios",
     "productora": "Muni Arica",
     "fecha": "2026-05-30",
@@ -84,94 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/muestra-cultural-2026-dia-de-los-patrimonios"
   },
   {
-    "id": "muni-1780106792820-8",
-    "titulo": "VI Feria de Emprendedores Rurales Frutos del Norte",
-    "productora": "Muni Arica",
-    "fecha": "2026-05-30",
-    "hora": "19:00",
-    "lugar": "Valle de Azapa",
-    "precio_desde": 0,
-    "categoria": "Fiestas",
-    "imagen": "https://docs.muniarica.cl/web/actividad/124-14:37.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/vi-feria-de-emprendedores-rurales-frutos-del-norte"
-  },
-  {
-    "id": "muni-1780106792820-9",
-    "titulo": "Juegos Inclusivos Arica 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-05-30",
-    "hora": "19:00",
-    "lugar": "Ex Epicentro 1",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/141-13:21.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/juegos-inclusivos-arica-2026"
-  },
-  {
-    "id": "muni-1780106792820-10",
-    "titulo": "1 Torneo de Atletismo Escolar",
-    "productora": "Muni Arica",
-    "fecha": "2026-05-20",
-    "hora": "19:00",
-    "lugar": "Estadio Carlos Dittborn",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/134-16:03.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/1-torneo-de-atletismo-escolar"
-  },
-  {
-    "id": "muni-1780106792820-11",
-    "titulo": "Disco Retro 1",
-    "productora": "Muni Arica",
-    "fecha": "2026-05-20",
-    "hora": "19:00",
-    "lugar": "Ex Casino Arica",
-    "precio_desde": 0,
-    "categoria": "Fiestas",
-    "imagen": "https://docs.muniarica.cl/web/actividad/133-11:43.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/disco-retro-1"
-  },
-  {
-    "id": "muni-1780106792820-12",
-    "titulo": "Lucha Libre en Vivo",
-    "productora": "Muni Arica",
-    "fecha": "2026-05-17",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/129-16:43.png",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/lucha-libre-en-vivo"
-  },
-  {
-    "id": "panoramas-1780106792294-1",
-    "titulo": "Cerámicas del Norte Descuentos",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-05-30",
-    "hora": "03:59",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 5000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOS%20PANORAMAS%20T%20%284%29.png",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
-  },
-  {
-    "id": "panoramas-1780106792294-2",
-    "titulo": "Tienda Pawa",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-05-30",
-    "hora": "15:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 40000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOPRINCIPAL%20%281%29.png",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/tienda-pawa"
-  },
-  {
-    "id": "panoramas-1780106792295-3",
+    "id": "panoramas-1780490290903-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-05-30",
+    "fecha": "2026-06-03",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -180,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1780106792671-4",
+    "id": "panoramas-1780490291184-2",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
