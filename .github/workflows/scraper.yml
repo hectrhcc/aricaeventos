@@ -40,10 +40,11 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
         # Forzamos agregar el json de eventos si es que cambió
-        git add public/eventos.json || true
+        git add public/eventos.json 
         
-        # Este truco evita que falle si no hay cambios reales
-        git diff --staged --quiet || git commit -m "bot: actualización automática de eventos reales"
-        
-        # Sube los cambios limpiamente o avisa que no fue necesario
-        git push origin main || echo "No hay cambios nuevos para subir"
+        if git diff --staged --quiet; then
+            echo "No hay nuevos eventos para actualizar hoy."
+          else
+            git commit -m "bot: Actualizar Eventos de Arica"
+            git push origin main
+          fi
