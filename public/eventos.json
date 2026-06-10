@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1781002548430-1",
+    "id": "muni-1781091288632-1",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1781002548431-2",
+    "id": "muni-1781091288632-2",
     "titulo": "Moza Morena Vuelve a Escena",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
   },
   {
-    "id": "muni-1781002548431-3",
+    "id": "muni-1781091288633-3",
     "titulo": "Esperando el 7 de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-06",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/esperando-el-7-de-junio"
   },
   {
-    "id": "muni-1781002548431-4",
+    "id": "muni-1781091288633-4",
     "titulo": "Hotel Transilvania",
     "productora": "Muni Arica",
     "fecha": "2026-06-06",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/hotel-transilvania"
   },
   {
-    "id": "muni-1781002548432-5",
+    "id": "muni-1781091288633-5",
     "titulo": "La Cosa The Thing 2011",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/la-cosa-the-thing-2011"
   },
   {
-    "id": "muni-1781002548432-6",
+    "id": "muni-1781091288634-6",
     "titulo": "Small Band Orfeon Nacional de Carabineros de Chile",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/small-band-orfeon-nacional-de-carabineros-de-chile"
   },
   {
-    "id": "muni-1781002548433-7",
+    "id": "muni-1781091288634-7",
     "titulo": "Cambiaton de Laminas Mundial 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-de-laminas-mundial-2026"
   },
   {
-    "id": "muni-1781002548433-8",
+    "id": "muni-1781091288634-8",
     "titulo": "Arica Cup 2026 Ceremonia de Inauguración",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-cup-2026-ceremonia-de-inauguracion"
   },
   {
-    "id": "muni-1781002548433-9",
+    "id": "muni-1781091288634-9",
     "titulo": "Taller de Yoga Mes de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-yoga-mes-de-junio"
   },
   {
-    "id": "muni-1781002548434-10",
+    "id": "muni-1781091288634-10",
     "titulo": "Inauguración Conjunto Escultorico Momias Chinchorro",
     "productora": "Muni Arica",
     "fecha": "2026-06-04",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inauguracion-conjunto-escultorico-momias-chinchorro"
   },
   {
-    "id": "muni-1781002548434-11",
+    "id": "muni-1781091288635-11",
     "titulo": "Arica Cup 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-03",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-cup-2026"
   },
   {
-    "id": "muni-1781002548434-12",
+    "id": "muni-1781091288635-12",
     "titulo": "Diagnostico Participativo Programa Estrategia de Desarrollo Local Inclusivo",
     "productora": "Muni Arica",
     "fecha": "2026-06-02",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/diagnostico-participativo-programa-estrategia-de-desarrollo-local-inclusivo"
   },
   {
-    "id": "panoramas-1781002548304-1",
+    "id": "panoramas-1781091288338-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-06-09",
+    "fecha": "2026-06-10",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -156,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1781002548481-2",
+    "id": "panoramas-1781091288496-2",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
