@@ -48,6 +48,18 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/hotel-transilvania"
   },
   {
+    "id": "manual-1780534149749-13",
+    "titulo": "Festival Suena Norte 2026",
+    "productora": "Suena Norte",
+    "fecha": "2026-06-13",
+    "hora": "18:00",
+    "lugar": "Centro Cultural Junta de Adelanto (Ex Casino Arica)",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "/Afiche-Suena-Norte-2026_1080.jpg",
+    "url_ticket": "https://suenanorte.cl"
+  },
+  {
     "id": "muni-1781091288633-5",
     "titulo": "La Cosa The Thing 2011",
     "productora": "Muni Arica",
@@ -73,18 +85,6 @@
   },
   {
     "id": "muni-1781091288634-7",
-    "titulo": "Cambiaton de Laminas Mundial 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-05",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/146-18:02.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-de-laminas-mundial-2026"
-  },
-  {
-    "id": "muni-1781091288634-8",
     "titulo": "Arica Cup 2026 Ceremonia de Inauguración",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-cup-2026-ceremonia-de-inauguracion"
   },
   {
-    "id": "muni-1781091288634-9",
+    "id": "muni-1781091288634-8",
     "titulo": "Taller de Yoga Mes de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-yoga-mes-de-junio"
   },
   {
-    "id": "muni-1781091288634-10",
+    "id": "muni-1781091288634-9",
     "titulo": "Inauguración Conjunto Escultorico Momias Chinchorro",
     "productora": "Muni Arica",
     "fecha": "2026-06-04",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inauguracion-conjunto-escultorico-momias-chinchorro"
   },
   {
-    "id": "muni-1781091288635-11",
+    "id": "muni-1781091288635-10",
     "titulo": "Arica Cup 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-03",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/arica-cup-2026"
   },
   {
-    "id": "muni-1781091288635-12",
+    "id": "muni-1781091288635-11",
     "titulo": "Diagnostico Participativo Programa Estrategia de Desarrollo Local Inclusivo",
     "productora": "Muni Arica",
     "fecha": "2026-06-02",
