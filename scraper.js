@@ -334,7 +334,23 @@ async function main() {
       scrapePanoramasArica()
     ]);
 
-    const listaConsolidada = [...eventosMunicipales, ...eventosPanoramas];
+    // ── Rescatar eventos manuales del archivo existente ──────────────────────
+    const outputPath = path.join(process.cwd(), 'public', 'eventos.json');
+    let eventosManuales = [];
+    if (fs.existsSync(outputPath)) {
+      try {
+        const raw = fs.readFileSync(outputPath, 'utf-8');
+        const existentes = JSON.parse(raw);
+        eventosManuales = existentes.filter(e => String(e.id).startsWith('manual-'));
+        if (eventosManuales.length > 0) {
+          console.log(`📌 [Manual] Conservando ${eventosManuales.length} evento(s) manual(es).`);
+        }
+      } catch (_) {
+        console.warn('⚠️ No se pudo leer eventos.json existente; se omiten manuales.');
+      }
+    }
+
+    const listaConsolidada = [...eventosMunicipales, ...eventosPanoramas, ...eventosManuales];
     
     if (listaConsolidada.length === 0) {
       console.log("🔒 Proceso terminado: No se encontraron registros vigentes en ningún portal.");
@@ -344,7 +360,6 @@ async function main() {
     const publicDir = path.join(process.cwd(), 'public');
     if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true });
 
-    const outputPath = path.join(publicDir, 'eventos.json');
     fs.writeFileSync(outputPath, JSON.stringify(listaConsolidada, null, 2), 'utf-8');
     
     console.log(`\n🎉 [ÉXITO TOTAL] Base de datos sincronizada: ${listaConsolidada.length} eventos consolidados en ${outputPath}`);

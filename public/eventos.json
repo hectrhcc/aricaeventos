@@ -89,7 +89,7 @@
     "productora": "Muni Arica",
     "fecha": "2026-06-05",
     "hora": "19:00",
-    "lugar": "Estadio Osvaldo “Arica” Hurtado",
+    "lugar": "Estadio Osvaldo "Arica" Hurtado",
     "precio_desde": 0,
     "categoria": "Deportes",
     "imagen": "https://docs.muniarica.cl/web/actividad/151-18:20.jpeg",
@@ -125,7 +125,7 @@
     "productora": "Muni Arica",
     "fecha": "2026-06-03",
     "hora": "19:00",
-    "lugar": "Estadio Osvaldo “Arica” Hurtado",
+    "lugar": "Estadio Osvaldo "Arica" Hurtado",
     "precio_desde": 0,
     "categoria": "Deportes",
     "imagen": "https://docs.muniarica.cl/web/actividad/142-15:16.jpeg",
@@ -166,5 +166,17 @@
     "categoria": "Deportes",
     "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/pppp%20%281%29.png",
     "url_ticket": "https://www.panoramasarica.cl/actividad/2nd-fai-pan-american-paragliding-accuracy-championships"
+  },
+  {
+    "id": "manual-1780534149749-13",
+    "titulo": "Festival Suena Norte 2026",
+    "productora": "Suena Norte",
+    "fecha": "2026-06-13",
+    "hora": "18:00",
+    "lugar": "Centro Cultural Junta de Adelanto (Ex Casino Arica)",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "/Afiche-Suena-Norte-2026_1080.jpg",
+    "url_ticket": "https://suenanorte.cl"
   }
 ]
