@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1781346231541-1",
+    "id": "muni-1781433949777-1",
     "titulo": "Campeonato de Cueca Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
   },
   {
-    "id": "muni-1781346231541-2",
+    "id": "muni-1781433949777-2",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1781346231541-3",
+    "id": "muni-1781433949778-3",
     "titulo": "Moza Morena Vuelve a Escena",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
   },
   {
-    "id": "muni-1781346231542-4",
+    "id": "muni-1781433949778-4",
     "titulo": "Renovacion Patentes de Alcoholes 2 Semestre 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/renovacion-patentes-de-alcoholes-2-semestre-2026"
   },
   {
-    "id": "muni-1781346231542-5",
+    "id": "muni-1781433949778-5",
     "titulo": "Curso de Manipulacion de Alimentos Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/curso-de-manipulacion-de-alimentos-gratuito"
   },
   {
-    "id": "muni-1781346231542-6",
+    "id": "muni-1781433949779-6",
     "titulo": "2 Corrida Caminata Familiar",
     "productora": "Muni Arica",
     "fecha": "2026-06-14",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-corrida-caminata-familiar"
   },
   {
-    "id": "muni-1781346231542-7",
+    "id": "muni-1781433949779-7",
     "titulo": "Pelicula Sing",
     "productora": "Muni Arica",
     "fecha": "2026-06-13",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pelicula-sing"
   },
   {
-    "id": "muni-1781346231543-8",
+    "id": "muni-1781433949779-8",
     "titulo": "Pelicula Footloose",
     "productora": "Muni Arica",
     "fecha": "2026-06-12",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pelicula-footloose"
   },
   {
-    "id": "muni-1781346231543-9",
+    "id": "muni-1781433949779-9",
     "titulo": "2 Campeonato de Futbol Femenino",
     "productora": "Muni Arica",
     "fecha": "2026-06-12",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-campeonato-de-futbol-femenino"
   },
   {
-    "id": "muni-1781346231543-10",
+    "id": "muni-1781433949779-10",
     "titulo": "La Ruta Circular Llega a Arica",
     "productora": "Muni Arica",
     "fecha": "2026-06-12",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/la-ruta-circular-llega-a-arica"
   },
   {
-    "id": "muni-1781346231543-11",
+    "id": "muni-1781433949780-11",
     "titulo": "Taller de Futbol Formativo Punta Norte",
     "productora": "Muni Arica",
     "fecha": "2026-06-12",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-futbol-formativo-punta-norte"
   },
   {
-    "id": "muni-1781346231543-12",
+    "id": "muni-1781433949780-12",
     "titulo": "Esperando el 7 de Junio",
     "productora": "Muni Arica",
     "fecha": "2026-06-06",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/esperando-el-7-de-junio"
   },
   {
-    "id": "panoramas-1781346235527-1",
+    "id": "panoramas-1781433952430-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-06-13",
+    "fecha": "2026-06-14",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -156,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1781346235791-2",
+    "id": "panoramas-1781433952660-2",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
