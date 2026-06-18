@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1781698343098-1",
+    "id": "muni-1781783224707-1",
     "titulo": "Campeonato de Cueca Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -12,7 +12,19 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
   },
   {
-    "id": "muni-1781698343099-2",
+    "id": "muni-1781783224707-2",
+    "titulo": "Taller Basico Lengua Quechua Gratuito",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-04",
+    "hora": "19:00",
+    "lugar": "Ex Casino Arica",
+    "precio_desde": 0,
+    "categoria": "Taller",
+    "imagen": "https://docs.muniarica.cl/web/actividad/165-11:46.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-basico-lengua-quechua-gratuito"
+  },
+  {
+    "id": "muni-1781783224707-3",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -24,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1781698343099-3",
+    "id": "muni-1781783224708-4",
     "titulo": "Moza Morena Vuelve a Escena",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -36,7 +48,79 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
   },
   {
-    "id": "muni-1781698343100-4",
+    "id": "muni-1781783224708-5",
+    "titulo": "Pasacalle Machaq Mara 5534 Catedral San Marcos de Arica",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-20",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/162-11:33.png",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/pasacalle-machaq-mara-5534-catedral-san-marcos-de-arica"
+  },
+  {
+    "id": "muni-1781783224708-6",
+    "titulo": "Te Invitamos al Karaoke del Cuidado",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-19",
+    "hora": "19:00",
+    "lugar": "Centro Comunitario de Cuidados Norte",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/164-11:40.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/te-invitamos-al-karaoke-del-cuidado"
+  },
+  {
+    "id": "muni-1781783224708-7",
+    "titulo": "El Festival de la Kalapurca con el Sazon del Adulto Mayor",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-19",
+    "hora": "19:00",
+    "lugar": "Poblado Artesanal",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/168-17:09.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/el-festival-de-la-kalapurca-con-el-sazon-del-adulto-mayor"
+  },
+  {
+    "id": "muni-1781783224708-8",
+    "titulo": "Cambiaton Laminas Mundial 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-19",
+    "hora": "19:00",
+    "lugar": "Epicentro II",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/167-17:02.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-laminas-mundial-2026"
+  },
+  {
+    "id": "muni-1781783224709-9",
+    "titulo": "Master Class Gratuita Fit Folk Celebrando un Nuevo Machaq Mara",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-18",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://docs.muniarica.cl/web/actividad/166-12:35.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/master-class-gratuita-fit-folk-celebrando-un-nuevo-machaq-mara"
+  },
+  {
+    "id": "muni-1781783224709-10",
+    "titulo": "Necesitas Ayuda para Activar Tu Cupon de Gas",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-17",
+    "hora": "19:00",
+    "lugar": "Centro Comunitario de Cuidados Norte",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://docs.muniarica.cl/web/actividad/163-11:37.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/necesitas-ayuda-para-activar-tu-cupon-de-gas"
+  },
+  {
+    "id": "muni-1781783224709-11",
     "titulo": "Renovacion Patentes de Alcoholes 2 Semestre 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -48,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/renovacion-patentes-de-alcoholes-2-semestre-2026"
   },
   {
-    "id": "muni-1781698343100-5",
+    "id": "muni-1781783224709-12",
     "titulo": "Curso de Manipulacion de Alimentos Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -60,94 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/curso-de-manipulacion-de-alimentos-gratuito"
   },
   {
-    "id": "muni-1781698343101-6",
-    "titulo": "2 Corrida Caminata Familiar",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-14",
-    "hora": "19:00",
-    "lugar": "Paseo Las Machas",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/154-15:20.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/2-corrida-caminata-familiar"
-  },
-  {
-    "id": "muni-1781698343101-7",
-    "titulo": "Pelicula Sing",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-13",
-    "hora": "19:00",
-    "lugar": "Cine Municipal",
-    "precio_desde": 0,
-    "categoria": "Cine",
-    "imagen": "https://docs.muniarica.cl/web/actividad/156-15:29.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/pelicula-sing"
-  },
-  {
-    "id": "muni-1781698343102-8",
-    "titulo": "Pelicula Footloose",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-12",
-    "hora": "19:00",
-    "lugar": "Cine Municipal",
-    "precio_desde": 0,
-    "categoria": "Cine",
-    "imagen": "https://docs.muniarica.cl/web/actividad/157-15:33.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/pelicula-footloose"
-  },
-  {
-    "id": "muni-1781698343102-9",
-    "titulo": "2 Campeonato de Futbol Femenino",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-12",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/161-15:53.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/2-campeonato-de-futbol-femenino"
-  },
-  {
-    "id": "muni-1781698343102-10",
-    "titulo": "La Ruta Circular Llega a Arica",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-12",
-    "hora": "19:00",
-    "lugar": "Plaza Vicuña Mackenna",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/160-15:47.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/la-ruta-circular-llega-a-arica"
-  },
-  {
-    "id": "muni-1781698343103-11",
-    "titulo": "Taller de Futbol Formativo Punta Norte",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-12",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/158-15:39.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-futbol-formativo-punta-norte"
-  },
-  {
-    "id": "muni-1781698343103-12",
-    "titulo": "Esperando el 7 de Junio",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-06",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/135-16:03.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/esperando-el-7-de-junio"
-  },
-  {
-    "id": "panoramas-1781698344934-1",
+    "id": "panoramas-1781783226879-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-06-17",
+    "fecha": "2026-06-18",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -156,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1781698345159-2",
+    "id": "panoramas-1781783227110-2",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
