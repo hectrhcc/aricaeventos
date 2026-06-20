@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1781870491814-1",
+    "id": "muni-1781951307127-1",
     "titulo": "Campeonato de Cueca Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
   },
   {
-    "id": "muni-1781870491814-2",
+    "id": "muni-1781951307127-2",
     "titulo": "Taller Basico Lengua Quechua Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-07-04",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-basico-lengua-quechua-gratuito"
   },
   {
-    "id": "muni-1781870491814-3",
+    "id": "muni-1781951307127-3",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1781870491814-4",
+    "id": "muni-1781951307128-4",
     "titulo": "Moza Morena Vuelve a Escena",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
   },
   {
-    "id": "muni-1781870491814-5",
+    "id": "muni-1781951307128-5",
     "titulo": "Pasacalle Machaq Mara 5534 Catedral San Marcos de Arica",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pasacalle-machaq-mara-5534-catedral-san-marcos-de-arica"
   },
   {
-    "id": "muni-1781870491815-6",
+    "id": "muni-1781951307128-6",
     "titulo": "Te Invitamos al Karaoke del Cuidado",
     "productora": "Muni Arica",
     "fecha": "2026-06-19",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/te-invitamos-al-karaoke-del-cuidado"
   },
   {
-    "id": "muni-1781870491815-7",
+    "id": "muni-1781951307128-7",
     "titulo": "El Festival de la Kalapurca con el Sazon del Adulto Mayor",
     "productora": "Muni Arica",
     "fecha": "2026-06-19",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/el-festival-de-la-kalapurca-con-el-sazon-del-adulto-mayor"
   },
   {
-    "id": "muni-1781870491815-8",
+    "id": "muni-1781951307128-8",
     "titulo": "Cambiaton Laminas Mundial 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-19",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-laminas-mundial-2026"
   },
   {
-    "id": "muni-1781870491815-9",
+    "id": "muni-1781951307128-9",
     "titulo": "Master Class Gratuita Fit Folk Celebrando un Nuevo Machaq Mara",
     "productora": "Muni Arica",
     "fecha": "2026-06-18",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/master-class-gratuita-fit-folk-celebrando-un-nuevo-machaq-mara"
   },
   {
-    "id": "muni-1781870491815-10",
+    "id": "muni-1781951307129-10",
     "titulo": "Necesitas Ayuda para Activar Tu Cupon de Gas",
     "productora": "Muni Arica",
     "fecha": "2026-06-17",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/necesitas-ayuda-para-activar-tu-cupon-de-gas"
   },
   {
-    "id": "muni-1781870491815-11",
+    "id": "muni-1781951307129-11",
     "titulo": "Renovacion Patentes de Alcoholes 2 Semestre 2026",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/renovacion-patentes-de-alcoholes-2-semestre-2026"
   },
   {
-    "id": "muni-1781870491815-12",
+    "id": "muni-1781951307129-12",
     "titulo": "Curso de Manipulacion de Alimentos Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-06-15",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/curso-de-manipulacion-de-alimentos-gratuito"
   },
   {
-    "id": "panoramas-1781870494131-1",
+    "id": "panoramas-1781951306641-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-06-19",
+    "fecha": "2026-06-20",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -156,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1781870494365-2",
+    "id": "panoramas-1781951306825-2",
     "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
     "productora": "Panoramas Arica",
     "fecha": "2026-06-30",
