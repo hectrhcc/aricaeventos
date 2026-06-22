@@ -4,7 +4,7 @@
    * Tarjeta individual de evento con imagen, badge de categoría,
    * fecha formateada, precio y botón de compra.
    */
-  import { fechaCorta, formatearPrecio, colorCategoria } from './utils.js';
+  import { fechaCorta, formatearPrecio, colorCategoria, esEventoPasado } from './utils.js';
 
   /** @type {{ titulo: string, productora: string, fecha: string, hora: string,
    *           lugar: string, precio_desde: number, categoria: string,
@@ -16,6 +16,7 @@
   const fechaFmt = $derived(fechaCorta(evento.fecha, evento.hora));
   const precio   = $derived(formatearPrecio(evento.precio_desde));
   const esGratis = $derived(evento.precio_desde === 0);
+  const pasado   = $derived(esEventoPasado(evento.fecha));
 
   let imgError = $state(false);
   const sinImagen = $derived(!evento.imagen || imgError);
@@ -24,6 +25,7 @@
 <!-- Tarjeta principal -->
 <article
   class="event-card"
+  class:pasado
   style="--cat-bg:{colores.bg}; --cat-text:{colores.text}; --cat-border:{colores.border};"
 >
   <!-- ── Imagen ── -->
@@ -54,6 +56,13 @@
     <span class="cat-badge">{evento.categoria}</span>
     <!-- Precio flotante -->
     <span class="price-badge" class:free={esGratis}>{precio}</span>
+
+    {#if pasado}
+      <!-- Badge "Pasó" sobre eventos ya ocurridos -->
+      <div class="pasado-overlay" aria-label="Evento finalizado">
+        <span class="pasado-badge">Pasó</span>
+      </div>
+    {/if}
   </div>
 
   <!-- ── Contenido ── -->
@@ -102,6 +111,16 @@
     transform: translateY(-4px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 0 0 1px var(--cat-border);
     border-color: var(--cat-border);
+  }
+
+  .event-card.pasado {
+    opacity: 0.7;
+    filter: saturate(0.5);
+  }
+
+  .event-card.pasado:hover {
+    opacity: 0.85;
+    filter: saturate(0.7);
   }
 
   /* ── Imagen ──────────────────────────────────────── */
@@ -173,6 +192,33 @@
   /* Overlay más sutil cuando no hay imagen real */
   .card-img-wrap.no-image::after {
     background: linear-gradient(to top, rgba(236,227,211,0.75) 0%, transparent 45%);
+  }
+
+  /* ── Badge "Pasó" ───────────────────────────── */
+  .pasado-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(1px);
+    pointer-events: none;
+  }
+
+  .pasado-badge {
+    padding: 0.35rem 1.2rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.55);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   }
 
   /* ── Badges flotantes ──────────────────────────── */

@@ -47,11 +47,7 @@
       const data = await res.json();
 
       // Ordenar por fecha ascendente (más próximos primero)
-      // y filtrar solo eventos futuros (fecha >= hoy)
-      const hoy = new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
-      todos = data
-        .filter(e => e.fecha >= hoy)
-        .sort((a, b) => a.fecha.localeCompare(b.fecha));
+      todos = data.sort((a, b) => a.fecha.localeCompare(b.fecha));
     } catch (e) {
       error = 'No se pudo cargar la lista de eventos. Intenta recargar la página.';
       console.error('[EventosArica] Error al cargar eventos.json:', e);

@@ -46,6 +46,13 @@ export function formatearPrecio(precio) {
 
 // ─── Filtros de fecha ─────────────────────────────────────────────────────────
 
+/**
+ * Retorna true si la fecha del evento ya pasó (fecha < hoy).
+ */
+export function esEventoPasado(fechaStr) {
+  return fechaStr < hoyStr();
+}
+
 /** Obtiene la fecha local de hoy como "YYYY-MM-DD" */
 function hoyStr() {
   const hoy = new Date();
