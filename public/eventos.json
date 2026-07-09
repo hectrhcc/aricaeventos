@@ -1,6 +1,42 @@
 [
   {
-    "id": "muni-1782040319954-1",
+    "id": "muni-1783505451393-1",
+    "titulo": "Carnaval de Sabores Ven a Celebrar Nuestra 10 Version",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-21",
+    "hora": "19:00",
+    "lugar": "Parque Centenario",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/172-10:55.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/carnaval-de-sabores-ven-a-celebrar-nuestra-10-version"
+  },
+  {
+    "id": "muni-1783505451394-2",
+    "titulo": "Descubre el Valle de Azapa Tour Patrimonios Culturales 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-14",
+    "hora": "19:00",
+    "lugar": "Valle de Azapa",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/169-12:56.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/descubre-el-valle-de-azapa-tour-patrimonios-culturales-2026"
+  },
+  {
+    "id": "muni-1783505451394-3",
+    "titulo": "Campeonato Federado Surf Body",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-13",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://docs.muniarica.cl/web/actividad/175-12:58.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-federado-surf-body"
+  },
+  {
+    "id": "muni-1783505451394-4",
     "titulo": "Campeonato de Cueca Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -12,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
   },
   {
-    "id": "muni-1782040319955-2",
+    "id": "muni-1783505451395-5",
     "titulo": "Taller Basico Lengua Quechua Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-07-04",
@@ -24,7 +60,19 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-basico-lengua-quechua-gratuito"
   },
   {
-    "id": "muni-1782040319955-3",
+    "id": "muni-1783505451395-6",
+    "titulo": "Fiesta Costumbrista Azapena 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-03",
+    "hora": "19:00",
+    "lugar": "San Miguel de Azapa",
+    "precio_desde": 0,
+    "categoria": "Fiestas",
+    "imagen": "https://docs.muniarica.cl/web/actividad/176-12:14.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/fiesta-costumbrista-azapena-2026"
+  },
+  {
+    "id": "muni-1783505451395-7",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -36,7 +84,55 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1782040319955-4",
+    "id": "muni-1783505451395-8",
+    "titulo": "Hotel Transylvania 2",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-27",
+    "hora": "19:00",
+    "lugar": "Cine Municipal",
+    "precio_desde": 0,
+    "categoria": "Cine",
+    "imagen": "https://docs.muniarica.cl/web/actividad/174-12:53.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/hotel-transylvania-2"
+  },
+  {
+    "id": "muni-1783505451395-9",
+    "titulo": "Encuentro Raices Arica Artesania y Emprendimiento Personas Mayores",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-27",
+    "hora": "19:00",
+    "lugar": "Parque Centenario",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/173-12:49.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-raices-arica-artesania-y-emprendimiento-personas-mayores"
+  },
+  {
+    "id": "muni-1783505451396-10",
+    "titulo": "Matrix",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-26",
+    "hora": "19:00",
+    "lugar": "Cine Municipal",
+    "precio_desde": 0,
+    "categoria": "Cine",
+    "imagen": "https://docs.muniarica.cl/web/actividad/171-15:19.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/matrix"
+  },
+  {
+    "id": "muni-1783505451396-11",
+    "titulo": "Campeonato de Futbolito Corporeo",
+    "productora": "Muni Arica",
+    "fecha": "2026-06-26",
+    "hora": "19:00",
+    "lugar": "Fortín Sotomayor",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://docs.muniarica.cl/web/actividad/170-15:15.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-futbolito-corporeo"
+  },
+  {
+    "id": "muni-1783505451396-12",
     "titulo": "Moza Morena Vuelve a Escena",
     "productora": "Muni Arica",
     "fecha": "2026-06-20",
@@ -48,124 +144,16 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
   },
   {
-    "id": "muni-1782040319955-5",
-    "titulo": "Pasacalle Machaq Mara 5534 Catedral San Marcos de Arica",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-20",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/162-11:33.png",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/pasacalle-machaq-mara-5534-catedral-san-marcos-de-arica"
-  },
-  {
-    "id": "muni-1782040319956-6",
-    "titulo": "Te Invitamos al Karaoke del Cuidado",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-19",
-    "hora": "19:00",
-    "lugar": "Centro Comunitario de Cuidados Norte",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/164-11:40.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/te-invitamos-al-karaoke-del-cuidado"
-  },
-  {
-    "id": "muni-1782040319956-7",
-    "titulo": "El Festival de la Kalapurca con el Sazon del Adulto Mayor",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-19",
-    "hora": "19:00",
-    "lugar": "Poblado Artesanal",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/168-17:09.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/el-festival-de-la-kalapurca-con-el-sazon-del-adulto-mayor"
-  },
-  {
-    "id": "muni-1782040319956-8",
-    "titulo": "Cambiaton Laminas Mundial 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-19",
-    "hora": "19:00",
-    "lugar": "Epicentro II",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/167-17:02.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/cambiaton-laminas-mundial-2026"
-  },
-  {
-    "id": "muni-1782040319956-9",
-    "titulo": "Master Class Gratuita Fit Folk Celebrando un Nuevo Machaq Mara",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-18",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/166-12:35.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/master-class-gratuita-fit-folk-celebrando-un-nuevo-machaq-mara"
-  },
-  {
-    "id": "muni-1782040319956-10",
-    "titulo": "Necesitas Ayuda para Activar Tu Cupon de Gas",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-17",
-    "hora": "19:00",
-    "lugar": "Centro Comunitario de Cuidados Norte",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/163-11:37.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/necesitas-ayuda-para-activar-tu-cupon-de-gas"
-  },
-  {
-    "id": "muni-1782040319956-11",
-    "titulo": "Renovacion Patentes de Alcoholes 2 Semestre 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-15",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/155-15:24.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/renovacion-patentes-de-alcoholes-2-semestre-2026"
-  },
-  {
-    "id": "muni-1782040319957-12",
-    "titulo": "Curso de Manipulacion de Alimentos Gratuito",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-15",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Taller",
-    "imagen": "https://docs.muniarica.cl/web/actividad/153-15:16.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/curso-de-manipulacion-de-alimentos-gratuito"
-  },
-  {
-    "id": "panoramas-1782040322517-1",
+    "id": "panoramas-1783505451257-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-06-21",
+    "fecha": "2026-07-08",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
     "categoria": "Cultura",
     "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/Dise%C3%B1o%20sin%20t%C3%ADtulo.jpg",
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
-  },
-  {
-    "id": "panoramas-1782040322794-2",
-    "titulo": "2nd FAI Pan-American Paragliding Accuracy Championships",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-06-30",
-    "hora": "11:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 380,
-    "categoria": "Deportes",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/pppp%20%281%29.png",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/2nd-fai-pan-american-paragliding-accuracy-championships"
   },
   {
     "id": "manual-1780534149749-13",
