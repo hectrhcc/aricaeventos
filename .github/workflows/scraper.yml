@@ -37,7 +37,7 @@ jobs:
     - name: Hacer Commit y Push de los nuevos eventos
       run: |
         git config --global user.name "hectrhcc"
-        git config --global user.email "hcontrerascorvacho@gmail.com"
+        git config --global user.email "95552068+hectrhcc@users.noreply.github.com"
         
         # Forzamos agregar el json de eventos si es que cambió
         git add public/eventos.json 
