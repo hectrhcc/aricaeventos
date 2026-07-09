@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1783505451393-1",
+    "id": "muni-1783594115100-1",
     "titulo": "Carnaval de Sabores Ven a Celebrar Nuestra 10 Version",
     "productora": "Muni Arica",
     "fecha": "2026-08-21",
@@ -12,7 +12,19 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/carnaval-de-sabores-ven-a-celebrar-nuestra-10-version"
   },
   {
-    "id": "muni-1783505451394-2",
+    "id": "muni-1783594115101-2",
+    "titulo": "Torneo de Futbolito Copa Cancha Segura 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-18",
+    "hora": "19:00",
+    "lugar": "Estadio Osvaldo “Arica” Hurtado",
+    "precio_desde": 0,
+    "categoria": "Deportes",
+    "imagen": "https://docs.muniarica.cl/web/actividad/177-16:37.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/torneo-de-futbolito-copa-cancha-segura-2026"
+  },
+  {
+    "id": "muni-1783594115101-3",
     "titulo": "Descubre el Valle de Azapa Tour Patrimonios Culturales 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-14",
@@ -24,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/descubre-el-valle-de-azapa-tour-patrimonios-culturales-2026"
   },
   {
-    "id": "muni-1783505451394-3",
+    "id": "muni-1783594115101-4",
     "titulo": "Campeonato Federado Surf Body",
     "productora": "Muni Arica",
     "fecha": "2026-07-13",
@@ -36,7 +48,43 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-federado-surf-body"
   },
   {
-    "id": "muni-1783505451394-4",
+    "id": "muni-1783594115102-5",
+    "titulo": "Atencion de Podologia Clinica Gratuita",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-13",
+    "hora": "19:00",
+    "lugar": "Oficina Comunal del Adulto Mayor",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/178-16:45.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/atencion-de-podologia-clinica-gratuita"
+  },
+  {
+    "id": "muni-1783594115102-6",
+    "titulo": "Pokemon Go Fest 2026 Global",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-11",
+    "hora": "19:00",
+    "lugar": "Parque Colón",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/179-16:53.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-global"
+  },
+  {
+    "id": "muni-1783594115102-7",
+    "titulo": "Pokemon Go Fest 2026 Pokemon la Pelicula Mewtwo V S Mew",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-10",
+    "hora": "19:00",
+    "lugar": "Cine Municipal",
+    "precio_desde": 0,
+    "categoria": "Cine",
+    "imagen": "https://docs.muniarica.cl/web/actividad/180-17:00.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-pokemon-la-pelicula-mewtwo-v-s-mew"
+  },
+  {
+    "id": "muni-1783594115103-8",
     "titulo": "Campeonato de Cueca Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -48,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
   },
   {
-    "id": "muni-1783505451395-5",
+    "id": "muni-1783594115103-9",
     "titulo": "Taller Basico Lengua Quechua Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-07-04",
@@ -60,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-basico-lengua-quechua-gratuito"
   },
   {
-    "id": "muni-1783505451395-6",
+    "id": "muni-1783594115103-10",
     "titulo": "Fiesta Costumbrista Azapena 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-03",
@@ -72,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/fiesta-costumbrista-azapena-2026"
   },
   {
-    "id": "muni-1783505451395-7",
+    "id": "muni-1783594115103-11",
     "titulo": "Vuelve la Ginga",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -84,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/vuelve-la-ginga"
   },
   {
-    "id": "muni-1783505451395-8",
+    "id": "muni-1783594115103-12",
     "titulo": "Hotel Transylvania 2",
     "productora": "Muni Arica",
     "fecha": "2026-06-27",
@@ -96,58 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/hotel-transylvania-2"
   },
   {
-    "id": "muni-1783505451395-9",
-    "titulo": "Encuentro Raices Arica Artesania y Emprendimiento Personas Mayores",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-27",
-    "hora": "19:00",
-    "lugar": "Parque Centenario",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/173-12:49.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-raices-arica-artesania-y-emprendimiento-personas-mayores"
-  },
-  {
-    "id": "muni-1783505451396-10",
-    "titulo": "Matrix",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-26",
-    "hora": "19:00",
-    "lugar": "Cine Municipal",
-    "precio_desde": 0,
-    "categoria": "Cine",
-    "imagen": "https://docs.muniarica.cl/web/actividad/171-15:19.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/matrix"
-  },
-  {
-    "id": "muni-1783505451396-11",
-    "titulo": "Campeonato de Futbolito Corporeo",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-26",
-    "hora": "19:00",
-    "lugar": "Fortín Sotomayor",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/170-15:15.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-futbolito-corporeo"
-  },
-  {
-    "id": "muni-1783505451396-12",
-    "titulo": "Moza Morena Vuelve a Escena",
-    "productora": "Muni Arica",
-    "fecha": "2026-06-20",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/148-11:45.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/moza-morena-vuelve-a-escena"
-  },
-  {
-    "id": "panoramas-1783505451257-1",
+    "id": "panoramas-1783594114813-1",
     "titulo": "Rutas Gastronómicas con Mr. Chiss",
     "productora": "Panoramas Arica",
-    "fecha": "2026-07-08",
+    "fecha": "2026-07-09",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
