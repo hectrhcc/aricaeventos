@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1784715580157-1",
+    "id": "muni-1784801656319-1",
     "titulo": "Carnaval de Sabores Ven a Celebrar Nuestra 10 Version",
     "productora": "Muni Arica",
     "fecha": "2026-08-21",
@@ -12,7 +12,55 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/carnaval-de-sabores-ven-a-celebrar-nuestra-10-version"
   },
   {
-    "id": "muni-1784715580158-2",
+    "id": "muni-1784801656319-2",
+    "titulo": "Operativo Social Dideco",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-30",
+    "hora": "19:00",
+    "lugar": "Ex Casino Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/186-12:59.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/operativo-social-dideco"
+  },
+  {
+    "id": "muni-1784801656320-3",
+    "titulo": "Peluqueria Comunitaria Centro Comunitario de Cuidados Norte",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-29",
+    "hora": "19:00",
+    "lugar": "Centro Comunitario de Cuidados Norte",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/184-12:23.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/peluqueria-comunitaria-centro-comunitario-de-cuidados-norte"
+  },
+  {
+    "id": "muni-1784801656320-4",
+    "titulo": "Masterclass del Chicharron Peruano Semana de la Peruanidad",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-25",
+    "hora": "19:00",
+    "lugar": "Parque Centenario",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/185-12:52.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/masterclass-del-chicharron-peruano-semana-de-la-peruanidad"
+  },
+  {
+    "id": "muni-1784801656320-5",
+    "titulo": "Retiro de Escombros Junta Vecinal Vista Hermosa y las Vicunas",
+    "productora": "Muni Arica",
+    "fecha": "2026-07-22",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/183-11:48.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/retiro-de-escombros-junta-vecinal-vista-hermosa-y-las-vicunas"
+  },
+  {
+    "id": "muni-1784801656321-6",
     "titulo": "Torneo de Futbolito Copa Cancha Segura 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-18",
@@ -24,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/torneo-de-futbolito-copa-cancha-segura-2026"
   },
   {
-    "id": "muni-1784715580158-3",
+    "id": "muni-1784801656321-7",
     "titulo": "Descubre el Valle de Azapa Tour Patrimonios Culturales 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-14",
@@ -36,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/descubre-el-valle-de-azapa-tour-patrimonios-culturales-2026"
   },
   {
-    "id": "muni-1784715580159-4",
+    "id": "muni-1784801656321-8",
     "titulo": "Campeonato Federado Surf Body",
     "productora": "Muni Arica",
     "fecha": "2026-07-13",
@@ -48,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-federado-surf-body"
   },
   {
-    "id": "muni-1784715580159-5",
+    "id": "muni-1784801656321-9",
     "titulo": "Atencion de Podologia Clinica Gratuita",
     "productora": "Muni Arica",
     "fecha": "2026-07-13",
@@ -60,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/atencion-de-podologia-clinica-gratuita"
   },
   {
-    "id": "muni-1784715580159-6",
+    "id": "muni-1784801656321-10",
     "titulo": "Ciclo de Cine Infantil Spiderman un Nuevo Universo",
     "productora": "Muni Arica",
     "fecha": "2026-07-11",
@@ -72,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/ciclo-de-cine-infantil-spiderman-un-nuevo-universo"
   },
   {
-    "id": "muni-1784715580160-7",
+    "id": "muni-1784801656321-11",
     "titulo": "Pokemon Go Fest 2026 Global",
     "productora": "Muni Arica",
     "fecha": "2026-07-11",
@@ -84,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-global"
   },
   {
-    "id": "muni-1784715580160-8",
+    "id": "muni-1784801656321-12",
     "titulo": "Pokemon Go Fest 2026 Pokemon la Pelicula Mewtwo V S Mew",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -96,58 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-pokemon-la-pelicula-mewtwo-v-s-mew"
   },
   {
-    "id": "muni-1784715580160-9",
-    "titulo": "Cine en Tu Barrio Supermascotas Parque Poconchile",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-10",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cine",
-    "imagen": "https://docs.muniarica.cl/web/actividad/182-12:33.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/cine-en-tu-barrio-supermascotas-parque-poconchile"
-  },
-  {
-    "id": "muni-1784715580160-10",
-    "titulo": "Campeonato de Cueca Adulto Mayor 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-10",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/159-15:45.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-de-cueca-adulto-mayor-2026"
-  },
-  {
-    "id": "muni-1784715580160-11",
-    "titulo": "Taller Basico Lengua Quechua Gratuito",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-04",
-    "hora": "19:00",
-    "lugar": "Ex Casino Arica",
-    "precio_desde": 0,
-    "categoria": "Taller",
-    "imagen": "https://docs.muniarica.cl/web/actividad/165-11:46.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-basico-lengua-quechua-gratuito"
-  },
-  {
-    "id": "muni-1784715580160-12",
-    "titulo": "Fiesta Costumbrista Azapena 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-03",
-    "hora": "19:00",
-    "lugar": "San Miguel de Azapa",
-    "precio_desde": 0,
-    "categoria": "Fiestas",
-    "imagen": "https://docs.muniarica.cl/web/actividad/176-12:14.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/fiesta-costumbrista-azapena-2026"
-  },
-  {
-    "id": "panoramas-1784715579866-1",
+    "id": "panoramas-1784801656322-1",
     "titulo": "Del mar a tu paladar y del mercado a tu mesa :experiencia gastronómica  patrimonial  con el cocinero local Mr.chiss sabor, fusión y cultura",
     "productora": "Panoramas Arica",
-    "fecha": "2026-07-22",
+    "fecha": "2026-07-23",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
