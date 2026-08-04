@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1785755761421-1",
+    "id": "muni-1785839443006-1",
     "titulo": "Carnaval de Sabores Ven a Celebrar Nuestra 10 Version",
     "productora": "Muni Arica",
     "fecha": "2026-08-21",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/carnaval-de-sabores-ven-a-celebrar-nuestra-10-version"
   },
   {
-    "id": "muni-1785755761421-2",
+    "id": "muni-1785839443007-2",
     "titulo": "Operativo Social Dideco",
     "productora": "Muni Arica",
     "fecha": "2026-07-30",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/operativo-social-dideco"
   },
   {
-    "id": "muni-1785755761421-3",
+    "id": "muni-1785839443007-3",
     "titulo": "Peluqueria Comunitaria Centro Comunitario de Cuidados Norte",
     "productora": "Muni Arica",
     "fecha": "2026-07-29",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/peluqueria-comunitaria-centro-comunitario-de-cuidados-norte"
   },
   {
-    "id": "muni-1785755761422-4",
+    "id": "muni-1785839443007-4",
     "titulo": "Masterclass del Chicharron Peruano Semana de la Peruanidad",
     "productora": "Muni Arica",
     "fecha": "2026-07-25",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/masterclass-del-chicharron-peruano-semana-de-la-peruanidad"
   },
   {
-    "id": "muni-1785755761422-5",
+    "id": "muni-1785839443008-5",
     "titulo": "Retiro de Escombros Junta Vecinal Vista Hermosa y las Vicunas",
     "productora": "Muni Arica",
     "fecha": "2026-07-22",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/retiro-de-escombros-junta-vecinal-vista-hermosa-y-las-vicunas"
   },
   {
-    "id": "muni-1785755761423-6",
+    "id": "muni-1785839443008-6",
     "titulo": "Torneo de Futbolito Copa Cancha Segura 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-18",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/torneo-de-futbolito-copa-cancha-segura-2026"
   },
   {
-    "id": "muni-1785755761423-7",
+    "id": "muni-1785839443008-7",
     "titulo": "Descubre el Valle de Azapa Tour Patrimonios Culturales 2026",
     "productora": "Muni Arica",
     "fecha": "2026-07-14",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/descubre-el-valle-de-azapa-tour-patrimonios-culturales-2026"
   },
   {
-    "id": "muni-1785755761423-8",
+    "id": "muni-1785839443009-8",
     "titulo": "Campeonato Federado Surf Body",
     "productora": "Muni Arica",
     "fecha": "2026-07-13",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-federado-surf-body"
   },
   {
-    "id": "muni-1785755761423-9",
+    "id": "muni-1785839443009-9",
     "titulo": "Atencion de Podologia Clinica Gratuita",
     "productora": "Muni Arica",
     "fecha": "2026-07-13",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/atencion-de-podologia-clinica-gratuita"
   },
   {
-    "id": "muni-1785755761423-10",
+    "id": "muni-1785839443009-10",
     "titulo": "Ciclo de Cine Infantil Spiderman un Nuevo Universo",
     "productora": "Muni Arica",
     "fecha": "2026-07-11",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/ciclo-de-cine-infantil-spiderman-un-nuevo-universo"
   },
   {
-    "id": "muni-1785755761423-11",
+    "id": "muni-1785839443009-11",
     "titulo": "Pokemon Go Fest 2026 Global",
     "productora": "Muni Arica",
     "fecha": "2026-07-11",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-global"
   },
   {
-    "id": "muni-1785755761424-12",
+    "id": "muni-1785839443009-12",
     "titulo": "Pokemon Go Fest 2026 Pokemon la Pelicula Mewtwo V S Mew",
     "productora": "Muni Arica",
     "fecha": "2026-07-10",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/pokemon-go-fest-2026-pokemon-la-pelicula-mewtwo-v-s-mew"
   },
   {
-    "id": "panoramas-1785755761158-1",
+    "id": "panoramas-1785839442875-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-03",
+    "fecha": "2026-08-04",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1785755761158-2",
+    "id": "panoramas-1785839442876-2",
     "titulo": "Del mar a tu paladar y del mercado a tu mesa :experiencia gastronómica  patrimonial  con el cocinero local Mr.chiss sabor, fusión y cultura",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-03",
+    "fecha": "2026-08-04",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -168,16 +168,28 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1785755761450-3",
+    "id": "panoramas-1785839443209-3",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-03",
+    "fecha": "2026-08-04",
     "hora": "13:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
     "categoria": "Deportes",
     "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/1%2876%29.png",
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
+  },
+  {
+    "id": "panoramas-1785839443209-4",
+    "titulo": "Muro Chinchorro",
+    "productora": "Panoramas Arica",
+    "fecha": "2026-08-04",
+    "hora": "13:00",
+    "lugar": "Arica, Región de Arica y Parinacota",
+    "precio_desde": 5500,
+    "categoria": "Deportes",
+    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOPRINCIPAL.png",
+    "url_ticket": "https://www.panoramasarica.cl/actividad/muro-chinchorro"
   },
   {
     "id": "manual-1780534149749-13",
