@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1786525565945-1",
+    "id": "muni-1786611920403-1",
     "titulo": "Obra Musical Coco un Poco Loco",
     "productora": "Muni Arica",
     "fecha": "2026-08-27",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/obra-musical-coco-un-poco-loco"
   },
   {
-    "id": "muni-1786525565945-2",
+    "id": "muni-1786611920403-2",
     "titulo": "Carnaval de Sabores Ven a Celebrar Nuestra 10 Version",
     "productora": "Muni Arica",
     "fecha": "2026-08-21",
@@ -24,7 +24,31 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/carnaval-de-sabores-ven-a-celebrar-nuestra-10-version"
   },
   {
-    "id": "muni-1786525565945-3",
+    "id": "muni-1786611920404-3",
+    "titulo": "II Congreso Internacional Patrimonio Mundial y Modelos de Gestion el Camino de la Cultura Chinchorro 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-17",
+    "hora": "19:00",
+    "lugar": "Ex Casino Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/196-17:45.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/ii-congreso-internacional-patrimonio-mundial-y-modelos-de-gestion-el-camino-de-la-cultura-chinchorro-2026"
+  },
+  {
+    "id": "muni-1786611920404-4",
+    "titulo": "Tours Patrimoniales Festival del Choclo 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-15",
+    "hora": "19:00",
+    "lugar": "Poconchile",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/195-13:41.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/tours-patrimoniales-festival-del-choclo-2026"
+  },
+  {
+    "id": "muni-1786611920404-5",
     "titulo": "Festival del Choclo 2026 Poconchile Valle de Lluta",
     "productora": "Muni Arica",
     "fecha": "2026-08-14",
@@ -36,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/festival-del-choclo-2026-poconchile-valle-de-lluta"
   },
   {
-    "id": "muni-1786525565946-4",
+    "id": "muni-1786611920405-6",
     "titulo": "Oficina Enlace Norte Taller de Cueca Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-08-14",
@@ -48,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/oficina-enlace-norte-taller-de-cueca-gratuito"
   },
   {
-    "id": "muni-1786525565946-5",
+    "id": "muni-1786611920405-7",
     "titulo": "Postulacion Taller de Depilacion en Cera",
     "productora": "Muni Arica",
     "fecha": "2026-08-14",
@@ -60,7 +84,43 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/postulacion-taller-de-depilacion-en-cera"
   },
   {
-    "id": "muni-1786525565946-6",
+    "id": "muni-1786611920405-8",
+    "titulo": "Sonadores en Escena Ninos Ninas y Adolescentes de 6 a 17 Años",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-12",
+    "hora": "19:00",
+    "lugar": "Teatro Municipal",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/194-13:35.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/sonadores-en-escena-ninos-ninas-y-adolescentes-de-6-a-17-anos"
+  },
+  {
+    "id": "muni-1786611920405-9",
+    "titulo": "Retiro de Escombros Jjvv Alborada y Nueva Generacion",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-12",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/192-13:21.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/retiro-de-escombros-jjvv-alborada-y-nueva-generacion"
+  },
+  {
+    "id": "muni-1786611920405-10",
+    "titulo": "Jornada de Atencion a la Comunidad Centro Comunitario de Cuidados Norte",
+    "productora": "Muni Arica",
+    "fecha": "2026-08-12",
+    "hora": "19:00",
+    "lugar": "Centro Comunitario de Cuidados Norte",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/193-13:30.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/jornada-de-atencion-a-la-comunidad-centro-comunitario-de-cuidados-norte"
+  },
+  {
+    "id": "muni-1786611920405-11",
     "titulo": "Segunda Etapa Jornada de Esterilizacion Masiva de Mascotas",
     "productora": "Muni Arica",
     "fecha": "2026-08-12",
@@ -72,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/segunda-etapa-jornada-de-esterilizacion-masiva-de-mascotas"
   },
   {
-    "id": "muni-1786525565946-7",
+    "id": "muni-1786611920405-12",
     "titulo": "Operativo Social Dideco",
     "productora": "Muni Arica",
     "fecha": "2026-07-30",
@@ -84,70 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/operativo-social-dideco"
   },
   {
-    "id": "muni-1786525565947-8",
-    "titulo": "Peluqueria Comunitaria Centro Comunitario de Cuidados Norte",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-29",
-    "hora": "19:00",
-    "lugar": "Centro Comunitario de Cuidados Norte",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/184-12:23.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/peluqueria-comunitaria-centro-comunitario-de-cuidados-norte"
-  },
-  {
-    "id": "muni-1786525565947-9",
-    "titulo": "Masterclass del Chicharron Peruano Semana de la Peruanidad",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-25",
-    "hora": "19:00",
-    "lugar": "Parque Centenario",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/185-12:52.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/masterclass-del-chicharron-peruano-semana-de-la-peruanidad"
-  },
-  {
-    "id": "muni-1786525565947-10",
-    "titulo": "Retiro de Escombros Junta Vecinal Vista Hermosa y las Vicunas",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-22",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/183-11:48.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/retiro-de-escombros-junta-vecinal-vista-hermosa-y-las-vicunas"
-  },
-  {
-    "id": "muni-1786525565947-11",
-    "titulo": "Torneo de Futbolito Copa Cancha Segura 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-18",
-    "hora": "19:00",
-    "lugar": "Estadio Osvaldo “Arica” Hurtado",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/177-16:37.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/torneo-de-futbolito-copa-cancha-segura-2026"
-  },
-  {
-    "id": "muni-1786525565948-12",
-    "titulo": "Descubre el Valle de Azapa Tour Patrimonios Culturales 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-07-14",
-    "hora": "19:00",
-    "lugar": "Valle de Azapa",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/169-12:56.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/descubre-el-valle-de-azapa-tour-patrimonios-culturales-2026"
-  },
-  {
-    "id": "panoramas-1786525565652-1",
+    "id": "panoramas-1786611920540-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-12",
+    "fecha": "2026-08-13",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1786525565652-2",
+    "id": "panoramas-1786611920540-2",
     "titulo": "Del mar a tu paladar y del mercado a tu mesa :experiencia gastronómica  patrimonial  con el cocinero local Mr.chiss sabor, fusión y cultura",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-12",
+    "fecha": "2026-08-13",
     "hora": "16:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1786525565949-3",
+    "id": "panoramas-1786611920857-3",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-12",
+    "fecha": "2026-08-13",
     "hora": "13:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1786525565949-4",
+    "id": "panoramas-1786611920857-4",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-08-12",
+    "fecha": "2026-08-13",
     "hora": "13:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
