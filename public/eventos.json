@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1788607909678-1",
+    "id": "muni-1788695552053-1",
     "titulo": "Ciclo de Mentorias para Emprendedores",
     "productora": "Muni Arica",
     "fecha": "2026-09-08",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/ciclo-de-mentorias-para-emprendedores"
   },
   {
-    "id": "muni-1788607909679-2",
+    "id": "muni-1788695552054-2",
     "titulo": "Taller Abierto de Prevencion de Caidas para Adultos Mayores Septiembre",
     "productora": "Muni Arica",
     "fecha": "2026-09-08",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-abierto-de-prevencion-de-caidas-para-adultos-mayores-septiembre"
   },
   {
-    "id": "muni-1788607909679-3",
+    "id": "muni-1788695552054-3",
     "titulo": "Oficina Enlace Sur Atencion Oficinas de Subsidio y Registro Social de Hogares",
     "productora": "Muni Arica",
     "fecha": "2026-09-08",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/oficina-enlace-sur-atencion-oficinas-de-subsidio-y-registro-social-de-hogares"
   },
   {
-    "id": "muni-1788607909679-4",
+    "id": "muni-1788695552054-4",
     "titulo": "Taller Gratuito Gastronomia Andina",
     "productora": "Muni Arica",
     "fecha": "2026-09-07",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-gratuito-gastronomia-andina"
   },
   {
-    "id": "muni-1788607909680-5",
+    "id": "muni-1788695552055-5",
     "titulo": "Gran Fiesta de la Chilenidad Arica",
     "productora": "Muni Arica",
     "fecha": "2026-09-05",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/gran-fiesta-de-la-chilenidad-arica"
   },
   {
-    "id": "muni-1788607909680-6",
+    "id": "muni-1788695552055-6",
     "titulo": "Reciclar Aprender y Divertirse Te Esperamos en el Punto Limpio",
     "productora": "Muni Arica",
     "fecha": "2026-09-05",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/reciclar-aprender-y-divertirse-te-esperamos-en-el-punto-limpio"
   },
   {
-    "id": "muni-1788607909680-7",
+    "id": "muni-1788695552055-7",
     "titulo": "Puerto Libro Intercambio Literario",
     "productora": "Muni Arica",
     "fecha": "2026-09-05",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/puerto-libro-intercambio-literario"
   },
   {
-    "id": "muni-1788607909680-8",
+    "id": "muni-1788695552056-8",
     "titulo": "Retiro Kit Competencia la Ruta del Choclo 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-05",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/retiro-kit-competencia-la-ruta-del-choclo-2026"
   },
   {
-    "id": "muni-1788607909680-9",
+    "id": "muni-1788695552056-9",
     "titulo": "Conciertos Territoriales Parque Lauca",
     "productora": "Muni Arica",
     "fecha": "2026-09-04",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conciertos-territoriales-parque-lauca"
   },
   {
-    "id": "muni-1788607909681-10",
+    "id": "muni-1788695552056-10",
     "titulo": "Bienvenida Primavera Dj Cantante y Música en Vivo 60 Años",
     "productora": "Muni Arica",
     "fecha": "2026-09-04",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/bienvenida-primavera-dj-cantante-y-musica-en-vivo-60-anos"
   },
   {
-    "id": "muni-1788607909681-11",
+    "id": "muni-1788695552056-11",
     "titulo": "Jere Klein Llega al Día de la Juventud 2026",
     "productora": "Muni Arica",
     "fecha": "2026-08-29",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/jere-klein-llega-al-dia-de-la-juventud-2026"
   },
   {
-    "id": "muni-1788607909681-12",
+    "id": "muni-1788695552056-12",
     "titulo": "La Ruta del Deporte en Tu Barrio San Miguel de Azapa",
     "productora": "Muni Arica",
     "fecha": "2026-08-28",
@@ -144,23 +144,11 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/la-ruta-del-deporte-en-tu-barrio-san-miguel-de-azapa"
   },
   {
-    "id": "panoramas-1788607909818-1",
-    "titulo": "Sabores y Tradición en el Corazón de Codpa",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-09-05",
-    "hora": "12:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 10000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%281%29%20%281%29%20%281%29.jpg",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
-  },
-  {
-    "id": "panoramas-1788607909818-2",
+    "id": "panoramas-1788695551809-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-05",
-    "hora": "16:00",
+    "fecha": "2026-09-06",
+    "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
     "categoria": "Cultura",
@@ -168,11 +156,11 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1788607909818-3",
+    "id": "panoramas-1788695551810-2",
     "titulo": "Del mar a tu paladar y del mercado a tu mesa :experiencia gastronómica  patrimonial  con el cocinero local Mr.chiss sabor, fusión y cultura",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-05",
-    "hora": "16:00",
+    "fecha": "2026-09-07",
+    "hora": "02:59",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 35000,
     "categoria": "Cultura",
@@ -180,11 +168,23 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/rutas-gatronomicas-con-mr-chiss"
   },
   {
-    "id": "panoramas-1788607910264-4",
+    "id": "panoramas-1788695551810-3",
+    "titulo": "Sabores y Tradición en el Corazón de Codpa",
+    "productora": "Panoramas Arica",
+    "fecha": "2026-09-07",
+    "hora": "11:00",
+    "lugar": "Arica, Región de Arica y Parinacota",
+    "precio_desde": 10000,
+    "categoria": "Cultura",
+    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%281%29%20%281%29%20%281%29.jpg",
+    "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
+  },
+  {
+    "id": "panoramas-1788695552236-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-05",
-    "hora": "13:00",
+    "fecha": "2026-09-06",
+    "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
     "categoria": "Deportes",
@@ -192,11 +192,11 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1788607910264-5",
+    "id": "panoramas-1788695552236-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-05",
-    "hora": "13:00",
+    "fecha": "2026-09-06",
+    "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
     "categoria": "Deportes",
@@ -204,10 +204,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/muro-chinchorro"
   },
   {
-    "id": "panoramas-1788607910264-6",
+    "id": "panoramas-1788695552236-6",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-06",
+    "fecha": "2026-09-07",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
