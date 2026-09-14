@@ -1,6 +1,42 @@
 [
   {
-    "id": "muni-1789304524218-1",
+    "id": "muni-1789396695387-1",
+    "titulo": "Exposición Artistica Territorios Visuales y Paloma Quiero Contarte",
+    "productora": "Muni Arica",
+    "fecha": "2026-09-14",
+    "hora": "19:00",
+    "lugar": "Casa de la Cultura (Ex Aduana)",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/236-11:31.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/exposicion-artistica-territorios-visuales-y-paloma-quiero-contarte"
+  },
+  {
+    "id": "muni-1789396695387-2",
+    "titulo": "Contrapunto de Bandas Militares 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-09-14",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/235-11:02.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/contrapunto-de-bandas-militares-2026"
+  },
+  {
+    "id": "muni-1789396695387-3",
+    "titulo": "Crea Tu Propio Remolino Chileno Taller de Manualidades",
+    "productora": "Muni Arica",
+    "fecha": "2026-09-14",
+    "hora": "19:00",
+    "lugar": "Biblioteca Alfredo Wormald Cruz",
+    "precio_desde": 0,
+    "categoria": "Taller",
+    "imagen": "https://docs.muniarica.cl/web/actividad/237-11:35.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/crea-tu-propio-remolino-chileno-taller-de-manualidades"
+  },
+  {
+    "id": "muni-1789396695388-4",
     "titulo": "Primeras Olimpiadas de Innovacion Arica 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-14",
@@ -12,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/primeras-olimpiadas-de-innovacion-arica-2026"
   },
   {
-    "id": "muni-1789304524218-2",
+    "id": "muni-1789396695388-5",
     "titulo": "Feria Emprende Pet 2026 12 y 13 de Septiembre",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -24,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/feria-emprende-pet-2026-12-y-13-de-septiembre"
   },
   {
-    "id": "muni-1789304524218-3",
+    "id": "muni-1789396695388-6",
     "titulo": "Kung Fu Panda Cine Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -36,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/kung-fu-panda-cine-municipal"
   },
   {
-    "id": "muni-1789304524219-4",
+    "id": "muni-1789396695389-7",
     "titulo": "Volantinada Familiar 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -48,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/volantinada-familiar-2026"
   },
   {
-    "id": "muni-1789304524219-5",
+    "id": "muni-1789396695389-8",
     "titulo": "El Color Purpura 2023 Cine Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-09-11",
@@ -60,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/el-color-purpura-2023-cine-municipal"
   },
   {
-    "id": "muni-1789304524219-6",
+    "id": "muni-1789396695389-9",
     "titulo": "Tarde de Juegos Chilenos y Clases de Cueca",
     "productora": "Muni Arica",
     "fecha": "2026-09-11",
@@ -72,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/tarde-de-juegos-chilenos-y-clases-de-cueca"
   },
   {
-    "id": "muni-1789304524219-7",
+    "id": "muni-1789396695389-10",
     "titulo": "Caballo Teatro Ictus 2026 Mayores de 14 Años",
     "productora": "Muni Arica",
     "fecha": "2026-09-11",
@@ -84,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/caballo-teatro-ictus-2026-mayores-de-14-anos"
   },
   {
-    "id": "muni-1789304524219-8",
+    "id": "muni-1789396695389-11",
     "titulo": "Taller de Promocion de Derechos",
     "productora": "Muni Arica",
     "fecha": "2026-09-11",
@@ -96,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-promocion-de-derechos"
   },
   {
-    "id": "muni-1789304524219-9",
+    "id": "muni-1789396695389-12",
     "titulo": "Campeonato Internacional de Voleibol Femenino Sub 16",
     "productora": "Muni Arica",
     "fecha": "2026-09-10",
@@ -108,46 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-internacional-de-voleibol-femenino-sub-16"
   },
   {
-    "id": "muni-1789304524220-10",
-    "titulo": "Cueca Chilena Taller Intensivo Basico",
-    "productora": "Muni Arica",
-    "fecha": "2026-09-10",
-    "hora": "19:00",
-    "lugar": "Biblioteca Municipal Los Industriales",
-    "precio_desde": 0,
-    "categoria": "Taller",
-    "imagen": "https://docs.muniarica.cl/web/actividad/224-16:02.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/cueca-chilena-taller-intensivo-basico"
-  },
-  {
-    "id": "muni-1789304524220-11",
-    "titulo": "Muestra Bibliografica de Cocina Chilena",
-    "productora": "Muni Arica",
-    "fecha": "2026-09-10",
-    "hora": "19:00",
-    "lugar": "Biblioteca Municipal Tarapacá Oriente",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/229-17:56.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/muestra-bibliografica-de-cocina-chilena"
-  },
-  {
-    "id": "muni-1789304524220-12",
-    "titulo": "Gala Folclorica Raices y Tradiciones del Territorio",
-    "productora": "Muni Arica",
-    "fecha": "2026-09-09",
-    "hora": "19:00",
-    "lugar": "Poblado Artesanal",
-    "precio_desde": 0,
-    "categoria": "Fiestas",
-    "imagen": "https://docs.muniarica.cl/web/actividad/223-15:58.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/gala-folclorica-raices-y-tradiciones-del-territorio"
-  },
-  {
-    "id": "panoramas-1789304524237-1",
+    "id": "panoramas-1789396697682-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-13",
+    "fecha": "2026-09-14",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1789304524237-2",
+    "id": "panoramas-1789396697682-2",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1789304524638-3",
+    "id": "panoramas-1789396698090-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1789304524638-4",
+    "id": "panoramas-1789396698090-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1789304524638-5",
+    "id": "panoramas-1789396698090-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
