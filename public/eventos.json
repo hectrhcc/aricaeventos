@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1790081996949-1",
+    "id": "muni-1790169207465-1",
     "titulo": "Conferencia en Salud Sexual y Derechos Humanos",
     "productora": "Muni Arica",
     "fecha": "2026-09-23",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conferencia-en-salud-sexual-y-derechos-humanos"
   },
   {
-    "id": "muni-1790081996949-2",
+    "id": "muni-1790169207466-2",
     "titulo": "Online Sorteo Oficial Carnaval Andino Arica con la Fuerza del Sol 2027",
     "productora": "Muni Arica",
     "fecha": "2026-09-22",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/online-sorteo-oficial-carnaval-andino-arica-con-la-fuerza-del-sol-2027"
   },
   {
-    "id": "muni-1790081996949-3",
+    "id": "muni-1790169207466-3",
     "titulo": "Charla Informativa de Fondo Esperanza Centro Comunitario de Cuidados Norte",
     "productora": "Muni Arica",
     "fecha": "2026-09-22",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/charla-informativa-de-fondo-esperanza-centro-comunitario-de-cuidados-norte"
   },
   {
-    "id": "muni-1790081996950-4",
+    "id": "muni-1790169207466-4",
     "titulo": "Manana Dieciochera Parque Punta Norte",
     "productora": "Muni Arica",
     "fecha": "2026-09-17",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/manana-dieciochera-parque-punta-norte"
   },
   {
-    "id": "muni-1790081996950-5",
+    "id": "muni-1790169207466-5",
     "titulo": "1 Edición Olimpiadas Vecinales Gran Lanzamiento",
     "productora": "Muni Arica",
     "fecha": "2026-09-16",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/1-edicion-olimpiadas-vecinales-gran-lanzamiento"
   },
   {
-    "id": "muni-1790081996951-6",
+    "id": "muni-1790169207467-6",
     "titulo": "Exposición Artistica Territorios Visuales y Paloma Quiero Contarte",
     "productora": "Muni Arica",
     "fecha": "2026-09-14",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/exposicion-artistica-territorios-visuales-y-paloma-quiero-contarte"
   },
   {
-    "id": "muni-1790081996951-7",
+    "id": "muni-1790169207467-7",
     "titulo": "Contrapunto de Bandas Militares 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-14",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/contrapunto-de-bandas-militares-2026"
   },
   {
-    "id": "muni-1790081996951-8",
+    "id": "muni-1790169207467-8",
     "titulo": "Crea Tu Propio Remolino Chileno Taller de Manualidades",
     "productora": "Muni Arica",
     "fecha": "2026-09-14",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/crea-tu-propio-remolino-chileno-taller-de-manualidades"
   },
   {
-    "id": "muni-1790081996951-9",
+    "id": "muni-1790169207467-9",
     "titulo": "Primeras Olimpiadas de Innovacion Arica 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-14",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/primeras-olimpiadas-de-innovacion-arica-2026"
   },
   {
-    "id": "muni-1790081996951-10",
+    "id": "muni-1790169207467-10",
     "titulo": "Feria Emprende Pet 2026 12 y 13 de Septiembre",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/feria-emprende-pet-2026-12-y-13-de-septiembre"
   },
   {
-    "id": "muni-1790081996952-11",
+    "id": "muni-1790169207468-11",
     "titulo": "Kung Fu Panda Cine Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/kung-fu-panda-cine-municipal"
   },
   {
-    "id": "muni-1790081996952-12",
+    "id": "muni-1790169207468-12",
     "titulo": "Volantinada Familiar 2026",
     "productora": "Muni Arica",
     "fecha": "2026-09-12",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/volantinada-familiar-2026"
   },
   {
-    "id": "panoramas-1790081999382-1",
+    "id": "panoramas-1790169209642-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-22",
+    "fecha": "2026-09-23",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1790081999382-2",
+    "id": "panoramas-1790169209642-2",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-23",
+    "fecha": "2026-09-24",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1790081999771-3",
+    "id": "panoramas-1790169210185-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-23",
+    "fecha": "2026-09-24",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1790081999771-4",
+    "id": "panoramas-1790169210185-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-23",
+    "fecha": "2026-09-24",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1790081999771-5",
+    "id": "panoramas-1790169210185-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-09-23",
+    "fecha": "2026-09-24",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
