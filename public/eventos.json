@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1791385136302-1",
+    "id": "muni-1791472038882-1",
     "titulo": "Corrida de Corporeos 2 Version",
     "productora": "Muni Arica",
     "fecha": "2026-10-09",
@@ -12,7 +12,31 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/corrida-de-corporeos-2-version"
   },
   {
-    "id": "muni-1791385136302-2",
+    "id": "muni-1791472038882-2",
+    "titulo": "Seminario Fomento Lector Embajadores y Embajadoras del Ariquenismo",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-07",
+    "hora": "19:00",
+    "lugar": "Biblioteca Alfredo Wormald Cruz",
+    "precio_desde": 0,
+    "categoria": "Taller",
+    "imagen": "https://docs.muniarica.cl/web/actividad/251-16:59.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/seminario-fomento-lector-embajadores-y-embajadoras-del-ariquenismo"
+  },
+  {
+    "id": "muni-1791472038882-3",
+    "titulo": "Exposiciones Artisticas Casa de la Cultura 2026",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-07",
+    "hora": "19:00",
+    "lugar": "Casa de la Cultura (Ex Aduana)",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/252-17:02.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/exposiciones-artisticas-casa-de-la-cultura-2026"
+  },
+  {
+    "id": "muni-1791472038883-4",
     "titulo": "Saberes que Resisten Segunda Edición",
     "productora": "Muni Arica",
     "fecha": "2026-10-04",
@@ -24,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/saberes-que-resisten-segunda-edicion"
   },
   {
-    "id": "muni-1791385136303-3",
+    "id": "muni-1791472038883-5",
     "titulo": "Inicio 1 Olimpiadas Vecinales Arica",
     "productora": "Muni Arica",
     "fecha": "2026-10-02",
@@ -36,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inicio-1-olimpiadas-vecinales-arica"
   },
   {
-    "id": "muni-1791385136303-4",
+    "id": "muni-1791472038883-6",
     "titulo": "Feria Inclusiva Discapacidad Emprende",
     "productora": "Muni Arica",
     "fecha": "2026-09-30",
@@ -48,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/feria-inclusiva-discapacidad-emprende"
   },
   {
-    "id": "muni-1791385136303-5",
+    "id": "muni-1791472038883-7",
     "titulo": "Reciclar y Aprender Te Hace Bien Resimple",
     "productora": "Muni Arica",
     "fecha": "2026-09-26",
@@ -60,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/reciclar-y-aprender-te-hace-bien-resimple"
   },
   {
-    "id": "muni-1791385136304-6",
+    "id": "muni-1791472038884-8",
     "titulo": "La Ruta del Deporte en Tu Barrio 3 Fecha",
     "productora": "Muni Arica",
     "fecha": "2026-09-25",
@@ -72,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/la-ruta-del-deporte-en-tu-barrio-3-fecha"
   },
   {
-    "id": "muni-1791385136304-7",
+    "id": "muni-1791472038884-9",
     "titulo": "Taller Cuidado del Paciente Centro Comunitario de Cuidados Norte",
     "productora": "Muni Arica",
     "fecha": "2026-09-24",
@@ -84,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-cuidado-del-paciente-centro-comunitario-de-cuidados-norte"
   },
   {
-    "id": "muni-1791385136304-8",
+    "id": "muni-1791472038884-10",
     "titulo": "Jornada Comunitaria Salud Sexual de Todos los Cuerpos",
     "productora": "Muni Arica",
     "fecha": "2026-09-23",
@@ -96,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/jornada-comunitaria-salud-sexual-de-todos-los-cuerpos"
   },
   {
-    "id": "muni-1791385136304-9",
+    "id": "muni-1791472038884-11",
     "titulo": "Conferencia en Salud Sexual y Derechos Humanos",
     "productora": "Muni Arica",
     "fecha": "2026-09-23",
@@ -108,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conferencia-en-salud-sexual-y-derechos-humanos"
   },
   {
-    "id": "muni-1791385136305-10",
+    "id": "muni-1791472038884-12",
     "titulo": "Online Sorteo Oficial Carnaval Andino Arica con la Fuerza del Sol 2027",
     "productora": "Muni Arica",
     "fecha": "2026-09-22",
@@ -120,46 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/online-sorteo-oficial-carnaval-andino-arica-con-la-fuerza-del-sol-2027"
   },
   {
-    "id": "muni-1791385136305-11",
-    "titulo": "Charla Informativa de Fondo Esperanza Centro Comunitario de Cuidados Norte",
-    "productora": "Muni Arica",
-    "fecha": "2026-09-22",
-    "hora": "19:00",
-    "lugar": "Centro Comunitario de Cuidados Norte",
-    "precio_desde": 0,
-    "categoria": "Taller",
-    "imagen": "https://docs.muniarica.cl/web/actividad/241-16:23.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/charla-informativa-de-fondo-esperanza-centro-comunitario-de-cuidados-norte"
-  },
-  {
-    "id": "muni-1791385136305-12",
-    "titulo": "Manana Dieciochera Parque Punta Norte",
-    "productora": "Muni Arica",
-    "fecha": "2026-09-17",
-    "hora": "19:00",
-    "lugar": "Parque Punta Norte",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/239-11:16.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/manana-dieciochera-parque-punta-norte"
-  },
-  {
-    "id": "panoramas-1791385139040-1",
-    "titulo": "Cerámicas del Norte Descuentos",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-10-07",
-    "hora": "15:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 5000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOS%20PANORAMAS%20T%20%284%29.png",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
-  },
-  {
-    "id": "panoramas-1791385139040-2",
+    "id": "panoramas-1791472039322-1",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-08",
+    "fecha": "2026-10-09",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +156,22 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1791385139441-3",
+    "id": "panoramas-1791472039322-2",
+    "titulo": "Cerámicas del Norte Descuentos",
+    "productora": "Panoramas Arica",
+    "fecha": "2026-10-09",
+    "hora": "15:00",
+    "lugar": "Arica, Región de Arica y Parinacota",
+    "precio_desde": 5000,
+    "categoria": "Cultura",
+    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOS%20PANORAMAS%20T%20%284%29.png",
+    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
+  },
+  {
+    "id": "panoramas-1791472039834-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-08",
+    "fecha": "2026-10-09",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1791385139441-4",
+    "id": "panoramas-1791472039834-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-08",
+    "fecha": "2026-10-09",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1791385139441-5",
+    "id": "panoramas-1791472039834-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-08",
+    "fecha": "2026-10-09",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
