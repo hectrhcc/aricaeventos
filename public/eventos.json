@@ -1,6 +1,18 @@
 [
   {
-    "id": "muni-1792588866057-1",
+    "id": "muni-1792675298107-1",
+    "titulo": "Obra el Duelo Gabriel Fuentealba",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-22",
+    "hora": "19:00",
+    "lugar": "Casa de la Cultura (Ex Aduana)",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/260-12:10.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/obra-el-duelo-gabriel-fuentealba"
+  },
+  {
+    "id": "muni-1792675298107-2",
     "titulo": "Encuentro de Lideres Juveniles 2026",
     "productora": "Muni Arica",
     "fecha": "2026-10-15",
@@ -12,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-lideres-juveniles-2026"
   },
   {
-    "id": "muni-1792588866057-2",
+    "id": "muni-1792675298107-3",
     "titulo": "Gira Teleton 2026 en Arica",
     "productora": "Muni Arica",
     "fecha": "2026-10-13",
@@ -24,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/gira-teleton-2026-en-arica"
   },
   {
-    "id": "muni-1792588866057-3",
+    "id": "muni-1792675298107-4",
     "titulo": "Cine Municipal Presenta Super Mario Bros la Pelicula",
     "productora": "Muni Arica",
     "fecha": "2026-10-10",
@@ -36,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/cine-municipal-presenta-super-mario-bros-la-pelicula"
   },
   {
-    "id": "muni-1792588866057-4",
+    "id": "muni-1792675298107-5",
     "titulo": "Jornada Familiar Reciclar y Aprender Te Hace Bien",
     "productora": "Muni Arica",
     "fecha": "2026-10-10",
@@ -48,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/jornada-familiar-reciclar-y-aprender-te-hace-bien"
   },
   {
-    "id": "muni-1792588866058-5",
+    "id": "muni-1792675298108-6",
     "titulo": "Puerto Libro Intercambio Literario 1",
     "productora": "Muni Arica",
     "fecha": "2026-10-10",
@@ -60,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/puerto-libro-intercambio-literario-1"
   },
   {
-    "id": "muni-1792588866058-6",
+    "id": "muni-1792675298108-7",
     "titulo": "Mes de Octubre 2026 Actividades Direccion de Cultura",
     "productora": "Muni Arica",
     "fecha": "2026-10-09",
@@ -72,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/mes-de-octubre-2026-actividades-direccion-de-cultura"
   },
   {
-    "id": "muni-1792588866058-7",
+    "id": "muni-1792675298108-8",
     "titulo": "Corrida de Corporeos 2 Edición 2026",
     "productora": "Muni Arica",
     "fecha": "2026-10-09",
@@ -84,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/corrida-de-corporeos-2-edicion-2026"
   },
   {
-    "id": "muni-1792588866058-8",
+    "id": "muni-1792675298108-9",
     "titulo": "Gala de Corporeos 2026 Previa Oficial",
     "productora": "Muni Arica",
     "fecha": "2026-10-08",
@@ -96,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/gala-de-corporeos-2026-previa-oficial"
   },
   {
-    "id": "muni-1792588866058-9",
+    "id": "muni-1792675298108-10",
     "titulo": "Seminario Fomento Lector Embajadores y Embajadoras del Ariquenismo",
     "productora": "Muni Arica",
     "fecha": "2026-10-07",
@@ -108,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/seminario-fomento-lector-embajadores-y-embajadoras-del-ariquenismo"
   },
   {
-    "id": "muni-1792588866058-10",
+    "id": "muni-1792675298108-11",
     "titulo": "Exposiciones Artisticas Casa de la Cultura 2026",
     "productora": "Muni Arica",
     "fecha": "2026-10-07",
@@ -120,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/exposiciones-artisticas-casa-de-la-cultura-2026"
   },
   {
-    "id": "muni-1792588866058-11",
+    "id": "muni-1792675298108-12",
     "titulo": "Saberes que Resisten Segunda Edición",
     "productora": "Muni Arica",
     "fecha": "2026-10-04",
@@ -132,22 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/saberes-que-resisten-segunda-edicion"
   },
   {
-    "id": "muni-1792588866058-12",
-    "titulo": "Inicio 1 Olimpiadas Vecinales Arica",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-02",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/249-13:59.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/inicio-1-olimpiadas-vecinales-arica"
-  },
-  {
-    "id": "panoramas-1792588865830-1",
+    "id": "panoramas-1792675297988-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-21",
+    "fecha": "2026-10-22",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1792588865830-2",
+    "id": "panoramas-1792675297988-2",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-22",
+    "fecha": "2026-10-23",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1792588866176-3",
+    "id": "panoramas-1792675298390-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-22",
+    "fecha": "2026-10-23",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1792588866176-4",
+    "id": "panoramas-1792675298390-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-22",
+    "fecha": "2026-10-23",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1792588866176-5",
+    "id": "panoramas-1792675298390-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-22",
+    "fecha": "2026-10-23",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
