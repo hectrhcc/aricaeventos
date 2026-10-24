@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1792760405722-1",
+    "id": "muni-1792844604212-1",
     "titulo": "Inscripcion Curso Gratuito Maquillaje y Peinado Carnaval",
     "productora": "Muni Arica",
     "fecha": "2026-11-23",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-maquillaje-y-peinado-carnaval"
   },
   {
-    "id": "muni-1792760405722-2",
+    "id": "muni-1792844604212-2",
     "titulo": "Inscripcion Curso Gratuito Masajes Corporales",
     "productora": "Muni Arica",
     "fecha": "2026-11-16",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-masajes-corporales"
   },
   {
-    "id": "muni-1792760405723-3",
+    "id": "muni-1792844604213-3",
     "titulo": "Inscripcion Curso Gratuito Manicura y Pedicura",
     "productora": "Muni Arica",
     "fecha": "2026-11-09",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-manicura-y-pedicura"
   },
   {
-    "id": "muni-1792760405723-4",
+    "id": "muni-1792844604213-4",
     "titulo": "Inscripcion Curso Gratuito Skincare y Cuidado Facial",
     "productora": "Muni Arica",
     "fecha": "2026-11-02",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-skincare-y-cuidado-facial"
   },
   {
-    "id": "muni-1792760405723-5",
+    "id": "muni-1792844604213-5",
     "titulo": "Concierto Jose Oviedo la Flor del Tumbo",
     "productora": "Muni Arica",
     "fecha": "2026-10-29",
@@ -60,7 +60,31 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/concierto-jose-oviedo-la-flor-del-tumbo"
   },
   {
-    "id": "muni-1792760405724-6",
+    "id": "muni-1792844604214-6",
+    "titulo": "2 Jornada Embajadores As del Ariquenismo",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-29",
+    "hora": "19:00",
+    "lugar": "Biblioteca Alfredo Wormald Cruz",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/271-17:14.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/2-jornada-embajadores-as-del-ariquenismo"
+  },
+  {
+    "id": "muni-1792844604214-7",
+    "titulo": "Encuentro de las Almas 2026 Exposición con Pertinencia Indigena",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-26",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/272-17:20.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-las-almas-2026-exposicion-con-pertinencia-indigena"
+  },
+  {
+    "id": "muni-1792844604214-8",
     "titulo": "Conversatorios y Charlas Literarias",
     "productora": "Muni Arica",
     "fecha": "2026-10-26",
@@ -72,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conversatorios-y-charlas-literarias"
   },
   {
-    "id": "muni-1792760405724-7",
+    "id": "muni-1792844604214-9",
     "titulo": "Inscripcion Curso Gratuito Corte de Cabello",
     "productora": "Muni Arica",
     "fecha": "2026-10-26",
@@ -84,7 +108,19 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-corte-de-cabello"
   },
   {
-    "id": "muni-1792760405724-8",
+    "id": "muni-1792844604214-10",
+    "titulo": "Cine Municipal Coco",
+    "productora": "Muni Arica",
+    "fecha": "2026-10-24",
+    "hora": "19:00",
+    "lugar": "Cine Municipal",
+    "precio_desde": 0,
+    "categoria": "Cine",
+    "imagen": "https://docs.muniarica.cl/web/actividad/273-17:25.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/cine-municipal-coco"
+  },
+  {
+    "id": "muni-1792844604215-11",
     "titulo": "Campeonato Infantil de Futbolito Mixto Interescolar Rural",
     "productora": "Muni Arica",
     "fecha": "2026-10-24",
@@ -96,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-infantil-de-futbolito-mixto-interescolar-rural"
   },
   {
-    "id": "muni-1792760405725-9",
+    "id": "muni-1792844604215-12",
     "titulo": "Previa del Terror Oficina de la Juventud Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-10-23",
@@ -108,46 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/previa-del-terror-oficina-de-la-juventud-municipal"
   },
   {
-    "id": "muni-1792760405725-10",
-    "titulo": "VIII Encuentro Internacional de Guitarras Arica en Seis Cuerdas",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-23",
-    "hora": "19:00",
-    "lugar": "Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/266-13:53.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/viii-encuentro-internacional-de-guitarras-arica-en-seis-cuerdas"
-  },
-  {
-    "id": "muni-1792760405725-11",
-    "titulo": "Obra el Duelo Gabriel Fuentealba",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-22",
-    "hora": "19:00",
-    "lugar": "Casa de la Cultura (Ex Aduana)",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/260-12:10.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/obra-el-duelo-gabriel-fuentealba"
-  },
-  {
-    "id": "muni-1792760405725-12",
-    "titulo": "Encuentro de Lideres Juveniles 2026",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-15",
-    "hora": "19:00",
-    "lugar": "Villa Albergue",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/256-20:00.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-lideres-juveniles-2026"
-  },
-  {
-    "id": "panoramas-1792760407607-1",
+    "id": "panoramas-1792844604003-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-23",
+    "fecha": "2026-10-24",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1792760407607-2",
+    "id": "panoramas-1792844604004-2",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-24",
+    "fecha": "2026-10-25",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1792760407988-3",
+    "id": "panoramas-1792844604376-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-24",
+    "fecha": "2026-10-25",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1792760407988-4",
+    "id": "panoramas-1792844604376-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-24",
+    "fecha": "2026-10-25",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1792760407988-5",
+    "id": "panoramas-1792844604376-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-24",
+    "fecha": "2026-10-25",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
