@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1792844604212-1",
+    "id": "muni-1792932819286-1",
     "titulo": "Inscripcion Curso Gratuito Maquillaje y Peinado Carnaval",
     "productora": "Muni Arica",
     "fecha": "2026-11-23",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-maquillaje-y-peinado-carnaval"
   },
   {
-    "id": "muni-1792844604212-2",
+    "id": "muni-1792932819286-2",
     "titulo": "Inscripcion Curso Gratuito Masajes Corporales",
     "productora": "Muni Arica",
     "fecha": "2026-11-16",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-masajes-corporales"
   },
   {
-    "id": "muni-1792844604213-3",
+    "id": "muni-1792932819287-3",
     "titulo": "Inscripcion Curso Gratuito Manicura y Pedicura",
     "productora": "Muni Arica",
     "fecha": "2026-11-09",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-manicura-y-pedicura"
   },
   {
-    "id": "muni-1792844604213-4",
+    "id": "muni-1792932819287-4",
     "titulo": "Inscripcion Curso Gratuito Skincare y Cuidado Facial",
     "productora": "Muni Arica",
     "fecha": "2026-11-02",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-skincare-y-cuidado-facial"
   },
   {
-    "id": "muni-1792844604213-5",
+    "id": "muni-1792932819287-5",
     "titulo": "Concierto Jose Oviedo la Flor del Tumbo",
     "productora": "Muni Arica",
     "fecha": "2026-10-29",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/concierto-jose-oviedo-la-flor-del-tumbo"
   },
   {
-    "id": "muni-1792844604214-6",
+    "id": "muni-1792932819288-6",
     "titulo": "2 Jornada Embajadores As del Ariquenismo",
     "productora": "Muni Arica",
     "fecha": "2026-10-29",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-jornada-embajadores-as-del-ariquenismo"
   },
   {
-    "id": "muni-1792844604214-7",
+    "id": "muni-1792932819288-7",
     "titulo": "Encuentro de las Almas 2026 Exposición con Pertinencia Indigena",
     "productora": "Muni Arica",
     "fecha": "2026-10-26",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-las-almas-2026-exposicion-con-pertinencia-indigena"
   },
   {
-    "id": "muni-1792844604214-8",
+    "id": "muni-1792932819288-8",
     "titulo": "Conversatorios y Charlas Literarias",
     "productora": "Muni Arica",
     "fecha": "2026-10-26",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conversatorios-y-charlas-literarias"
   },
   {
-    "id": "muni-1792844604214-9",
+    "id": "muni-1792932819288-9",
     "titulo": "Inscripcion Curso Gratuito Corte de Cabello",
     "productora": "Muni Arica",
     "fecha": "2026-10-26",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-corte-de-cabello"
   },
   {
-    "id": "muni-1792844604214-10",
+    "id": "muni-1792932819289-10",
     "titulo": "Cine Municipal Coco",
     "productora": "Muni Arica",
     "fecha": "2026-10-24",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/cine-municipal-coco"
   },
   {
-    "id": "muni-1792844604215-11",
+    "id": "muni-1792932819289-11",
     "titulo": "Campeonato Infantil de Futbolito Mixto Interescolar Rural",
     "productora": "Muni Arica",
     "fecha": "2026-10-24",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-infantil-de-futbolito-mixto-interescolar-rural"
   },
   {
-    "id": "muni-1792844604215-12",
+    "id": "muni-1792932819289-12",
     "titulo": "Previa del Terror Oficina de la Juventud Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-10-23",
@@ -144,10 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/previa-del-terror-oficina-de-la-juventud-municipal"
   },
   {
-    "id": "panoramas-1792844604003-1",
+    "id": "panoramas-1792932819019-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-24",
+    "fecha": "2026-10-25",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1792844604004-2",
+    "id": "panoramas-1792932819019-2",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-25",
+    "fecha": "2026-10-26",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +168,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1792844604376-3",
+    "id": "panoramas-1792932819383-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-25",
+    "fecha": "2026-10-26",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1792844604376-4",
+    "id": "panoramas-1792932819383-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-25",
+    "fecha": "2026-10-26",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1792844604376-5",
+    "id": "panoramas-1792932819383-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-25",
+    "fecha": "2026-10-26",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
