@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1793371478631-1",
+    "id": "muni-1793455875142-1",
     "titulo": "Inscripcion Curso Gratuito Maquillaje y Peinado Carnaval",
     "productora": "Muni Arica",
     "fecha": "2026-11-23",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-maquillaje-y-peinado-carnaval"
   },
   {
-    "id": "muni-1793371478632-2",
+    "id": "muni-1793455875142-2",
     "titulo": "Encuentro de Lideres Juveniles 2026 1",
     "productora": "Muni Arica",
     "fecha": "2026-11-20",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-lideres-juveniles-2026-1"
   },
   {
-    "id": "muni-1793371478632-3",
+    "id": "muni-1793455875143-3",
     "titulo": "Inscripcion Curso Gratuito Masajes Corporales",
     "productora": "Muni Arica",
     "fecha": "2026-11-16",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-masajes-corporales"
   },
   {
-    "id": "muni-1793371478632-4",
+    "id": "muni-1793455875143-4",
     "titulo": "Inscripcion Curso Gratuito Manicura y Pedicura",
     "productora": "Muni Arica",
     "fecha": "2026-11-09",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-manicura-y-pedicura"
   },
   {
-    "id": "muni-1793371478633-5",
+    "id": "muni-1793455875143-5",
     "titulo": "Taller Omil Aprende a Vender al Estado desde Cero",
     "productora": "Muni Arica",
     "fecha": "2026-11-03",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-omil-aprende-a-vender-al-estado-desde-cero"
   },
   {
-    "id": "muni-1793371478633-6",
+    "id": "muni-1793455875144-6",
     "titulo": "Inscripcion Curso Gratuito Skincare y Cuidado Facial",
     "productora": "Muni Arica",
     "fecha": "2026-11-02",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripcion-curso-gratuito-skincare-y-cuidado-facial"
   },
   {
-    "id": "muni-1793371478633-7",
+    "id": "muni-1793455875144-7",
     "titulo": "Emprende Pet Disfraza a Tu Mascota y Participa por Premios",
     "productora": "Muni Arica",
     "fecha": "2026-10-31",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/emprende-pet-disfraza-a-tu-mascota-y-participa-por-premios"
   },
   {
-    "id": "muni-1793371478633-8",
+    "id": "muni-1793455875144-8",
     "titulo": "Día de la Música Chilena en Arica 2026",
     "productora": "Muni Arica",
     "fecha": "2026-10-30",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/dia-de-la-musica-chilena-en-arica-2026"
   },
   {
-    "id": "muni-1793371478633-9",
+    "id": "muni-1793455875145-9",
     "titulo": "Triple Inauguración en la Casa de la Cultura",
     "productora": "Muni Arica",
     "fecha": "2026-10-30",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/triple-inauguracion-en-la-casa-de-la-cultura"
   },
   {
-    "id": "muni-1793371478634-10",
+    "id": "muni-1793455875145-10",
     "titulo": "Maraton de Cine de Horror Cine Municipal",
     "productora": "Muni Arica",
     "fecha": "2026-10-30",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/maraton-de-cine-de-horror-cine-municipal"
   },
   {
-    "id": "muni-1793371478634-11",
+    "id": "muni-1793455875145-11",
     "titulo": "Concierto Jose Oviedo la Flor del Tumbo",
     "productora": "Muni Arica",
     "fecha": "2026-10-29",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/concierto-jose-oviedo-la-flor-del-tumbo"
   },
   {
-    "id": "muni-1793371478634-12",
+    "id": "muni-1793455875145-12",
     "titulo": "2 Jornada Embajadores As del Ariquenismo",
     "productora": "Muni Arica",
     "fecha": "2026-10-29",
@@ -144,22 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-jornada-embajadores-as-del-ariquenismo"
   },
   {
-    "id": "panoramas-1793371478237-1",
-    "titulo": "Cerámicas del Norte Descuentos",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-10-31",
-    "hora": "02:59",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 5000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOS%20PANORAMAS%20T%20%284%29.png",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
-  },
-  {
-    "id": "panoramas-1793371478237-2",
+    "id": "panoramas-1793455874910-1",
     "titulo": "Sabores y Tradición en el Corazón de Codpa",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-31",
+    "fecha": "2026-11-01",
     "hora": "11:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -168,10 +156,22 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
   },
   {
-    "id": "panoramas-1793371478635-3",
+    "id": "panoramas-1793455874910-2",
+    "titulo": "Cerámicas del Norte Descuentos",
+    "productora": "Panoramas Arica",
+    "fecha": "2026-11-01",
+    "hora": "15:00",
+    "lugar": "Arica, Región de Arica y Parinacota",
+    "precio_desde": 5000,
+    "categoria": "Cultura",
+    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/FOTOS%20PANORAMAS%20T%20%284%29.png",
+    "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
+  },
+  {
+    "id": "panoramas-1793455875284-3",
     "titulo": "Libertad en los Cielos de Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-31",
+    "fecha": "2026-11-01",
     "hora": "05:38",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -180,10 +180,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/vuelo-en-parapente"
   },
   {
-    "id": "panoramas-1793371478635-4",
+    "id": "panoramas-1793455875284-4",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-31",
+    "fecha": "2026-11-01",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
@@ -192,10 +192,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/destino-vertical-vuela-sobre-arica"
   },
   {
-    "id": "panoramas-1793371478635-5",
+    "id": "panoramas-1793455875284-5",
     "titulo": "Muro Chinchorro",
     "productora": "Panoramas Arica",
-    "fecha": "2026-10-31",
+    "fecha": "2026-11-01",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5500,
