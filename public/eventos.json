@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1793720552525-1",
+    "id": "muni-1793807647071-1",
     "titulo": "Encuentro de Lideres Juveniles 2026 1",
     "productora": "Muni Arica",
     "fecha": "2026-11-20",
@@ -12,7 +12,19 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-lideres-juveniles-2026-1"
   },
   {
-    "id": "muni-1793720552525-2",
+    "id": "muni-1793807647071-2",
+    "titulo": "Taller de Introduccion a la Cosmetica Natural con Hierbas Medicinales",
+    "productora": "Muni Arica",
+    "fecha": "2026-11-09",
+    "hora": "19:00",
+    "lugar": "Arica",
+    "precio_desde": 0,
+    "categoria": "Taller",
+    "imagen": "https://docs.muniarica.cl/web/actividad/291-09:34.png",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-introduccion-a-la-cosmetica-natural-con-hierbas-medicinales"
+  },
+  {
+    "id": "muni-1793807647072-3",
     "titulo": "Festival Afrotambores 06 y 07 de Noviembre",
     "productora": "Muni Arica",
     "fecha": "2026-11-06",
@@ -24,7 +36,43 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/festival-afrotambores-06-y-07-de-noviembre"
   },
   {
-    "id": "muni-1793720552525-3",
+    "id": "muni-1793807647072-4",
+    "titulo": "Taller Gratuito Ajedrez Mes de Noviembre",
+    "productora": "Muni Arica",
+    "fecha": "2026-11-05",
+    "hora": "19:00",
+    "lugar": "Biblioteca Alfredo Wormald Cruz",
+    "precio_desde": 0,
+    "categoria": "Taller",
+    "imagen": "https://docs.muniarica.cl/web/actividad/290-14:50.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-gratuito-ajedrez-mes-de-noviembre"
+  },
+  {
+    "id": "muni-1793807647072-5",
+    "titulo": "Cantando Karaoke Nos Cuidamos Oficina Municipal de la Discapacidad",
+    "productora": "Muni Arica",
+    "fecha": "2026-11-04",
+    "hora": "19:00",
+    "lugar": "Ex Casino Arica",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/288-14:44.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/cantando-karaoke-nos-cuidamos-oficina-municipal-de-la-discapacidad"
+  },
+  {
+    "id": "muni-1793807647072-6",
+    "titulo": "Azapa Cuida a sus Mayores Oficina Comunal del Adulto Mayor",
+    "productora": "Muni Arica",
+    "fecha": "2026-11-04",
+    "hora": "19:00",
+    "lugar": "San Miguel de Azapa",
+    "precio_desde": 0,
+    "categoria": "Cultura",
+    "imagen": "https://docs.muniarica.cl/web/actividad/289-14:47.jpeg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/azapa-cuida-a-sus-mayores-oficina-comunal-del-adulto-mayor"
+  },
+  {
+    "id": "muni-1793807647072-7",
     "titulo": "Taller Omil Aprende a Vender al Estado desde Cero",
     "productora": "Muni Arica",
     "fecha": "2026-11-03",
@@ -36,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-omil-aprende-a-vender-al-estado-desde-cero"
   },
   {
-    "id": "muni-1793720552526-4",
+    "id": "muni-1793807647072-8",
     "titulo": "Conversatorio Literatura y Cine Literario",
     "productora": "Muni Arica",
     "fecha": "2026-11-02",
@@ -48,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/conversatorio-literatura-y-cine-literario"
   },
   {
-    "id": "muni-1793720552526-5",
+    "id": "muni-1793807647072-9",
     "titulo": "Concurso Navidad de Barrio Sector Norte Arica",
     "productora": "Muni Arica",
     "fecha": "2026-11-02",
@@ -60,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/concurso-navidad-de-barrio-sector-norte-arica"
   },
   {
-    "id": "muni-1793720552526-6",
+    "id": "muni-1793807647072-10",
     "titulo": "Emprende Pet Disfraza a Tu Mascota y Participa por Premios",
     "productora": "Muni Arica",
     "fecha": "2026-10-31",
@@ -72,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/emprende-pet-disfraza-a-tu-mascota-y-participa-por-premios"
   },
   {
-    "id": "muni-1793720552526-7",
+    "id": "muni-1793807647073-11",
     "titulo": "Día de la Música Chilena en Arica 2026",
     "productora": "Muni Arica",
     "fecha": "2026-10-30",
@@ -84,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/dia-de-la-musica-chilena-en-arica-2026"
   },
   {
-    "id": "muni-1793720552527-8",
+    "id": "muni-1793807647073-12",
     "titulo": "Triple Inauguración en la Casa de la Cultura",
     "productora": "Muni Arica",
     "fecha": "2026-10-30",
@@ -96,70 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/triple-inauguracion-en-la-casa-de-la-cultura"
   },
   {
-    "id": "muni-1793720552527-9",
-    "titulo": "Maraton de Cine de Horror Cine Municipal",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-30",
-    "hora": "19:00",
-    "lugar": "Cine Municipal",
-    "precio_desde": 0,
-    "categoria": "Cine",
-    "imagen": "https://docs.muniarica.cl/web/actividad/284-14:24.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/maraton-de-cine-de-horror-cine-municipal"
-  },
-  {
-    "id": "muni-1793720552527-10",
-    "titulo": "Concierto Jose Oviedo la Flor del Tumbo",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-29",
-    "hora": "19:00",
-    "lugar": "Ex Casino Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/269-17:02.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/concierto-jose-oviedo-la-flor-del-tumbo"
-  },
-  {
-    "id": "muni-1793720552527-11",
-    "titulo": "2 Jornada Embajadores As del Ariquenismo",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-29",
-    "hora": "19:00",
-    "lugar": "Biblioteca Alfredo Wormald Cruz",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/271-17:14.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/2-jornada-embajadores-as-del-ariquenismo"
-  },
-  {
-    "id": "muni-1793720552527-12",
-    "titulo": "Reclutamiento Omil Operador Caex y Operadores Polifuncionales",
-    "productora": "Muni Arica",
-    "fecha": "2026-10-29",
-    "hora": "19:00",
-    "lugar": "Ex Casino Arica",
-    "precio_desde": 0,
-    "categoria": "Cultura",
-    "imagen": "https://docs.muniarica.cl/web/actividad/275-10:46.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/reclutamiento-omil-operador-caex-y-operadores-polifuncionales"
-  },
-  {
-    "id": "panoramas-1793720552528-1",
-    "titulo": "Sabores y Tradición en el Corazón de Codpa",
-    "productora": "Panoramas Arica",
-    "fecha": "2026-11-04",
-    "hora": "11:00",
-    "lugar": "Arica, Región de Arica y Parinacota",
-    "precio_desde": 10000,
-    "categoria": "Cultura",
-    "imagen": "https://laravel-production-storage1-oddrmnfoicay.s3.amazonaws.com/actividades/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%281%29%20%281%29%20%281%29.jpg",
-    "url_ticket": "https://www.panoramasarica.cl/actividad/sabores-y-tradicion-en-el-corazon-de-codpa"
-  },
-  {
-    "id": "panoramas-1793720552528-2",
+    "id": "panoramas-1793807647021-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-05",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -168,10 +156,10 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1793720552723-3",
+    "id": "panoramas-1793807647242-2",
     "titulo": "Destino Vertical: Vuela sobre Arica",
     "productora": "Panoramas Arica",
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-05",
     "hora": "12:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 10000,
