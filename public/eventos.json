@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1795463030246-1",
+    "id": "muni-1795547759766-1",
     "titulo": "2 Escuela Municipal Itinerante de Derechos Humanos Estudiantes Secundarios y Universitarios Centros de Estudiantes y Dirigencias Estudiantiles",
     "productora": "Muni Arica",
     "fecha": "2026-11-30",
@@ -12,19 +12,31 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-escuela-municipal-itinerante-de-derechos-humanos-estudiantes-secundarios-y-universitarios-centros-de-estudiantes-y-dirigencias-estudiantiles"
   },
   {
-    "id": "muni-1795463030246-2",
+    "id": "muni-1795547759766-2",
     "titulo": "2 Escuela Municipal Itinerante de Derechos Humanos Pobladores Dirigencias Vecinales u Organizaciones Funcionales",
     "productora": "Muni Arica",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "hora": "19:00",
-    "lugar": "Villa Albergue",
+    "lugar": "Arica",
     "precio_desde": 0,
     "categoria": "Cultura",
     "imagen": "https://docs.muniarica.cl/web/actividad/304-14:27.png",
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-escuela-municipal-itinerante-de-derechos-humanos-pobladores-dirigencias-vecinales-u-organizaciones-funcionales"
   },
   {
-    "id": "muni-1795463030247-3",
+    "id": "muni-1795547759766-3",
+    "titulo": "Día del Cine Chileno Gloria",
+    "productora": "Muni Arica",
+    "fecha": "2026-11-25",
+    "hora": "19:00",
+    "lugar": "Cine Municipal",
+    "precio_desde": 0,
+    "categoria": "Cine",
+    "imagen": "https://docs.muniarica.cl/web/actividad/312-17:54.jpg",
+    "url_ticket": "https://muniarica.cl/eventos/publicacion/dia-del-cine-chileno-gloria"
+  },
+  {
+    "id": "muni-1795547759766-4",
     "titulo": "2 Comite de Seguridad Escolar",
     "productora": "Muni Arica",
     "fecha": "2026-11-24",
@@ -36,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-comite-de-seguridad-escolar"
   },
   {
-    "id": "muni-1795463030247-4",
+    "id": "muni-1795547759767-5",
     "titulo": "Encuentro de Lideres Juveniles 2026 1",
     "productora": "Muni Arica",
     "fecha": "2026-11-20",
@@ -48,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-de-lideres-juveniles-2026-1"
   },
   {
-    "id": "muni-1795463030247-5",
+    "id": "muni-1795547759767-6",
     "titulo": "Primer Festival Musical del Adulto Mayor 2026",
     "productora": "Muni Arica",
     "fecha": "2026-11-14",
@@ -60,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/primer-festival-musical-del-adulto-mayor-2026"
   },
   {
-    "id": "muni-1795463030248-6",
+    "id": "muni-1795547759767-7",
     "titulo": "Primer Encuentro Arte Patrimonio y Cultura Chinchorro",
     "productora": "Muni Arica",
     "fecha": "2026-11-14",
@@ -72,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/primer-encuentro-arte-patrimonio-y-cultura-chinchorro"
   },
   {
-    "id": "muni-1795463030248-7",
+    "id": "muni-1795547759767-8",
     "titulo": "Muraleando Arica Convocatoria para Jovenes Artistas",
     "productora": "Muni Arica",
     "fecha": "2026-11-14",
@@ -84,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/muraleando-arica-convocatoria-para-jovenes-artistas"
   },
   {
-    "id": "muni-1795463030248-8",
+    "id": "muni-1795547759767-9",
     "titulo": "Escuela de Liderazgo Ambiental 2026",
     "productora": "Muni Arica",
     "fecha": "2026-11-13",
@@ -96,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/escuela-de-liderazgo-ambiental-2026"
   },
   {
-    "id": "muni-1795463030248-9",
+    "id": "muni-1795547759767-10",
     "titulo": "2 Escuela Municipal Itinerante de Derechos Humanos Personas Trabajadoras y Dirigencias Sindicales",
     "productora": "Muni Arica",
     "fecha": "2026-11-13",
@@ -108,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-escuela-municipal-itinerante-de-derechos-humanos-personas-trabajadoras-y-dirigencias-sindicales"
   },
   {
-    "id": "muni-1795463030249-10",
+    "id": "muni-1795547759768-11",
     "titulo": "Documental la Busqueda del Otro",
     "productora": "Muni Arica",
     "fecha": "2026-11-12",
@@ -120,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/documental-la-busqueda-del-otro"
   },
   {
-    "id": "muni-1795463030249-11",
+    "id": "muni-1795547759768-12",
     "titulo": "Taller de Maquillaje Artistico con Enfoque Afrodescendiente",
     "productora": "Muni Arica",
     "fecha": "2026-11-12",
@@ -132,22 +144,10 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/taller-de-maquillaje-artistico-con-enfoque-afrodescendiente"
   },
   {
-    "id": "muni-1795463030249-12",
-    "titulo": "Campeonato Internacional de Voleibol Todo Competidor",
-    "productora": "Muni Arica",
-    "fecha": "2026-11-12",
-    "hora": "19:00",
-    "lugar": "Fortín Sotomayor",
-    "precio_desde": 0,
-    "categoria": "Deportes",
-    "imagen": "https://docs.muniarica.cl/web/actividad/310-14:54.jpeg",
-    "url_ticket": "https://muniarica.cl/eventos/publicacion/campeonato-internacional-de-voleibol-todo-competidor"
-  },
-  {
-    "id": "panoramas-1795463029951-1",
+    "id": "panoramas-1795547759473-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-11-24",
+    "fecha": "2026-11-25",
     "hora": "15:00",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
@@ -156,7 +156,7 @@
     "url_ticket": "https://www.panoramasarica.cl/actividad/ceramicas-del-norte-descuentos"
   },
   {
-    "id": "panoramas-1795463030255-2",
+    "id": "panoramas-1795547759770-2",
     "titulo": "Campeonato de Pesca Recreativa Lago Chungará 2026",
     "productora": "Panoramas Arica",
     "fecha": "2026-11-27",
