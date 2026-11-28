@@ -1,6 +1,6 @@
 [
   {
-    "id": "muni-1795801565458-1",
+    "id": "muni-1795883554549-1",
     "titulo": "Ven a Celebrar Año Nuevo en Arica 2027",
     "productora": "Muni Arica",
     "fecha": "2026-12-31",
@@ -12,7 +12,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/ven-a-celebrar-ano-nuevo-en-arica-2027"
   },
   {
-    "id": "muni-1795801565458-2",
+    "id": "muni-1795883554549-2",
     "titulo": "Encendido del Arbol Navideno 2026",
     "productora": "Muni Arica",
     "fecha": "2026-12-05",
@@ -24,7 +24,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encendido-del-arbol-navideno-2026"
   },
   {
-    "id": "muni-1795801565458-3",
+    "id": "muni-1795883554549-3",
     "titulo": "Inscripciones para el Plan Masivo de Natacion 2027 Solo Presencial",
     "productora": "Muni Arica",
     "fecha": "2026-12-03",
@@ -36,7 +36,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/inscripciones-para-el-plan-masivo-de-natacion-2027-solo-presencial"
   },
   {
-    "id": "muni-1795801565458-4",
+    "id": "muni-1795883554549-4",
     "titulo": "Participa en la Subasta Pública de Vehiculos Abandonados",
     "productora": "Muni Arica",
     "fecha": "2026-11-30",
@@ -48,7 +48,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/participa-en-la-subasta-publica-de-vehiculos-abandonados"
   },
   {
-    "id": "muni-1795801565459-5",
+    "id": "muni-1795883554550-5",
     "titulo": "2 Escuela Municipal Itinerante de Derechos Humanos Estudiantes Secundarios y Universitarios Centros de Estudiantes y Dirigencias Estudiantiles",
     "productora": "Muni Arica",
     "fecha": "2026-11-30",
@@ -60,7 +60,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-escuela-municipal-itinerante-de-derechos-humanos-estudiantes-secundarios-y-universitarios-centros-de-estudiantes-y-dirigencias-estudiantiles"
   },
   {
-    "id": "muni-1795801565459-6",
+    "id": "muni-1795883554550-6",
     "titulo": "1 Encuentro Internacional de Charangos Charanku",
     "productora": "Muni Arica",
     "fecha": "2026-11-29",
@@ -72,7 +72,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/1-encuentro-internacional-de-charangos-charanku"
   },
   {
-    "id": "muni-1795801565459-7",
+    "id": "muni-1795883554550-7",
     "titulo": "Encuentro Retro Música del Recuerdo Evento Gratuito",
     "productora": "Muni Arica",
     "fecha": "2026-11-29",
@@ -84,7 +84,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/encuentro-retro-musica-del-recuerdo-evento-gratuito"
   },
   {
-    "id": "muni-1795801565459-8",
+    "id": "muni-1795883554550-8",
     "titulo": "Corrida Nocturna 2026 Departamento de Deportes",
     "productora": "Muni Arica",
     "fecha": "2026-11-28",
@@ -96,7 +96,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/corrida-nocturna-2026-departamento-de-deportes"
   },
   {
-    "id": "muni-1795801565460-9",
+    "id": "muni-1795883554551-9",
     "titulo": "Tokoharu Campeonato Gamer Cf",
     "productora": "Muni Arica",
     "fecha": "2026-11-28",
@@ -108,7 +108,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/tokoharu-campeonato-gamer-cf"
   },
   {
-    "id": "muni-1795801565460-10",
+    "id": "muni-1795883554551-10",
     "titulo": "Aniversario Poblado Artesanal Arica",
     "productora": "Muni Arica",
     "fecha": "2026-11-28",
@@ -120,7 +120,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/aniversario-poblado-artesanal-arica"
   },
   {
-    "id": "muni-1795801565460-11",
+    "id": "muni-1795883554551-11",
     "titulo": "2 Escuela Municipal Itinerante de Derechos Humanos Pobladores Dirigencias Vecinales u Organizaciones Funcionales",
     "productora": "Muni Arica",
     "fecha": "2026-11-28",
@@ -132,7 +132,7 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/2-escuela-municipal-itinerante-de-derechos-humanos-pobladores-dirigencias-vecinales-u-organizaciones-funcionales"
   },
   {
-    "id": "muni-1795801565460-12",
+    "id": "muni-1795883554551-12",
     "titulo": "Seminario Ley de Artesania en Chile",
     "productora": "Muni Arica",
     "fecha": "2026-11-27",
@@ -144,11 +144,11 @@
     "url_ticket": "https://muniarica.cl/eventos/publicacion/seminario-ley-de-artesania-en-chile"
   },
   {
-    "id": "panoramas-1795801565324-1",
+    "id": "panoramas-1795883554181-1",
     "titulo": "Cerámicas del Norte Descuentos",
     "productora": "Panoramas Arica",
-    "fecha": "2026-11-28",
-    "hora": "15:00",
+    "fecha": "2026-11-30",
+    "hora": "02:59",
     "lugar": "Arica, Región de Arica y Parinacota",
     "precio_desde": 5000,
     "categoria": "Cultura",
